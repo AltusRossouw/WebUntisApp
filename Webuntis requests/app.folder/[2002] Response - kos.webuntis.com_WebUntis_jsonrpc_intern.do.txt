@@ -1,0 +1,2082 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Tue, 12 Aug 2025 20:44:30 GMT
+Content-Type: application/json-rpc;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+requestId: 0a6b748f66d57539572cf9bdec224cef
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Pragma: no-cache
+Cache-Control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Permissions-Policy: geolocation=(), microphone=(), fullscreen=(), camera=(), payment=(), usb=(), bluetooth=(), accelerometer=(), gyroscope=(), magnetometer=()
+Referrer-Policy: strict-origin-when-cross-origin
+Access-Control-Allow-Headers: Accept, Origin, X-Requested-With, Content-Type, Last-Modified
+Access-Control-Allow-Origin: *
+Permissions-Policy: geolocation=(), microphone=(), fullscreen=(), camera=(), payment=(), usb=(), bluetooth=(), accelerometer=(), gyroscope=(), magnetometer=()
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+
+{
+  "jsonrpc": "2.0",
+  "id": "UntisMobileiOS",
+  "result": {
+    "timetable": {
+      "displayableStartDate": "2025-08-11",
+      "displayableEndDate": "2025-08-16",
+      "periods": [
+        {
+          "id": 26552736,
+          "lessonId": 775438,
+          "startDateTime": "2025-08-11T10:00Z",
+          "endDateTime": "2025-08-11T10:50Z",
+          "foreColor": "#000000",
+          "backColor": "#e0ffff",
+          "innerForeColor": "#000000",
+          "innerBackColor": "#a1ebff",
+          "text": {
+            "lesson": "TGV Group 2",
+            "substitution": "",
+            "info": "",
+            "attachments": []
+          },
+          "elements": [
+            {
+              "type": "CLASS",
+              "id": 453964,
+              "orgId": 453964
+            },
+            {
+              "type": "CLASS",
+              "id": 458185,
+              "orgId": 458185
+            },
+            {
+              "type": "CLASS",
+              "id": 458350,
+              "orgId": 458350
+            },
+            {
+              "type": "CLASS",
+              "id": 541330,
+              "orgId": 541330
+            },
+            {
+              "type": "CLASS",
+              "id": 541333,
+              "orgId": 541333
+            },
+            {
+              "type": "CLASS",
+              "id": 541342,
+              "orgId": 541342
+            },
+            {
+              "type": "CLASS",
+              "id": 541354,
+              "orgId": 541354
+            },
+            {
+              "type": "CLASS",
+              "id": 541357,
+              "orgId": 541357
+            },
+            {
+              "type": "CLASS",
+              "id": 541360,
+              "orgId": 541360
+            },
+            {
+              "type": "CLASS",
+              "id": 541363,
+              "orgId": 541363
+            },
+            {
+              "type": "CLASS",
+              "id": 541366,
+              "orgId": 541366
+            },
+            {
+              "type": "CLASS",
+              "id": 541417,
+              "orgId": 541417
+            },
+            {
+              "type": "CLASS",
+              "id": 541531,
+              "orgId": 541531
+            },
+            {
+              "type": "CLASS",
+              "id": 541579,
+              "orgId": 541579
+            },
+            {
+              "type": "CLASS",
+              "id": 541831,
+              "orgId": 541831
+            },
+            {
+              "type": "CLASS",
+              "id": 542038,
+              "orgId": 542038
+            },
+            {
+              "type": "CLASS",
+              "id": 542041,
+              "orgId": 542041
+            },
+            {
+              "type": "CLASS",
+              "id": 542179,
+              "orgId": 542179
+            },
+            {
+              "type": "CLASS",
+              "id": 542287,
+              "orgId": 542287
+            },
+            {
+              "type": "CLASS",
+              "id": 543679,
+              "orgId": 543679
+            },
+            {
+              "type": "TEACHER",
+              "id": 7486,
+              "orgId": 7486
+            },
+            {
+              "type": "SUBJECT",
+              "id": 96724,
+              "orgId": 96724
+            },
+            {
+              "type": "ROOM",
+              "id": 4352,
+              "orgId": 4352
+            }
+          ],
+          "can": [
+            "READ_PERIODINFO"
+          ],
+          "is": [
+            "REGULAR"
+          ],
+          "homeWorks": null,
+          "exam": null,
+          "isOnlinePeriod": false,
+          "blockHash": -1698246697
+        },
+        {
+          "id": 26552739,
+          "lessonId": 775438,
+          "startDateTime": "2025-08-11T11:00Z",
+          "endDateTime": "2025-08-11T11:50Z",
+          "foreColor": "#000000",
+          "backColor": "#e0ffff",
+          "innerForeColor": "#000000",
+          "innerBackColor": "#a1ebff",
+          "text": {
+            "lesson": "TGV Group 2",
+            "substitution": "",
+            "info": "",
+            "attachments": []
+          },
+          "elements": [
+            {
+              "type": "CLASS",
+              "id": 453964,
+              "orgId": 453964
+            },
+            {
+              "type": "CLASS",
+              "id": 458185,
+              "orgId": 458185
+            },
+            {
+              "type": "CLASS",
+              "id": 458350,
+              "orgId": 458350
+            },
+            {
+              "type": "CLASS",
+              "id": 541330,
+              "orgId": 541330
+            },
+            {
+              "type": "CLASS",
+              "id": 541333,
+              "orgId": 541333
+            },
+            {
+              "type": "CLASS",
+              "id": 541342,
+              "orgId": 541342
+            },
+            {
+              "type": "CLASS",
+              "id": 541354,
+              "orgId": 541354
+            },
+            {
+              "type": "CLASS",
+              "id": 541357,
+              "orgId": 541357
+            },
+            {
+              "type": "CLASS",
+              "id": 541360,
+              "orgId": 541360
+            },
+            {
+              "type": "CLASS",
+              "id": 541363,
+              "orgId": 541363
+            },
+            {
+              "type": "CLASS",
+              "id": 541366,
+              "orgId": 541366
+            },
+            {
+              "type": "CLASS",
+              "id": 541417,
+              "orgId": 541417
+            },
+            {
+              "type": "CLASS",
+              "id": 541531,
+              "orgId": 541531
+            },
+            {
+              "type": "CLASS",
+              "id": 541579,
+              "orgId": 541579
+            },
+            {
+              "type": "CLASS",
+              "id": 541831,
+              "orgId": 541831
+            },
+            {
+              "type": "CLASS",
+              "id": 542038,
+              "orgId": 542038
+            },
+            {
+              "type": "CLASS",
+              "id": 542041,
+              "orgId": 542041
+            },
+            {
+              "type": "CLASS",
+              "id": 542179,
+              "orgId": 542179
+            },
+            {
+              "type": "CLASS",
+              "id": 542287,
+              "orgId": 542287
+            },
+            {
+              "type": "CLASS",
+              "id": 543679,
+              "orgId": 543679
+            },
+            {
+              "type": "TEACHER",
+              "id": 7486,
+              "orgId": 7486
+            },
+            {
+              "type": "SUBJECT",
+              "id": 96724,
+              "orgId": 96724
+            },
+            {
+              "type": "ROOM",
+              "id": 4352,
+              "orgId": 4352
+            }
+          ],
+          "can": [
+            "READ_PERIODINFO"
+          ],
+          "is": [
+            "REGULAR"
+          ],
+          "homeWorks": null,
+          "exam": null,
+          "isOnlinePeriod": false,
+          "blockHash": -1698246697
+        },
+        {
+          "id": 26552742,
+          "lessonId": 775438,
+          "startDateTime": "2025-08-12T14:00Z",
+          "endDateTime": "2025-08-12T14:50Z",
+          "foreColor": "#000000",
+          "backColor": "#e0ffff",
+          "innerForeColor": "#000000",
+          "innerBackColor": "#a1ebff",
+          "text": {
+            "lesson": "TGV Group 2",
+            "substitution": "",
+            "info": "",
+            "attachments": []
+          },
+          "elements": [
+            {
+              "type": "CLASS",
+              "id": 453964,
+              "orgId": 453964
+            },
+            {
+              "type": "CLASS",
+              "id": 458185,
+              "orgId": 458185
+            },
+            {
+              "type": "CLASS",
+              "id": 458350,
+              "orgId": 458350
+            },
+            {
+              "type": "CLASS",
+              "id": 541330,
+              "orgId": 541330
+            },
+            {
+              "type": "CLASS",
+              "id": 541333,
+              "orgId": 541333
+            },
+            {
+              "type": "CLASS",
+              "id": 541342,
+              "orgId": 541342
+            },
+            {
+              "type": "CLASS",
+              "id": 541354,
+              "orgId": 541354
+            },
+            {
+              "type": "CLASS",
+              "id": 541357,
+              "orgId": 541357
+            },
+            {
+              "type": "CLASS",
+              "id": 541360,
+              "orgId": 541360
+            },
+            {
+              "type": "CLASS",
+              "id": 541363,
+              "orgId": 541363
+            },
+            {
+              "type": "CLASS",
+              "id": 541366,
+              "orgId": 541366
+            },
+            {
+              "type": "CLASS",
+              "id": 541417,
+              "orgId": 541417
+            },
+            {
+              "type": "CLASS",
+              "id": 541531,
+              "orgId": 541531
+            },
+            {
+              "type": "CLASS",
+              "id": 541579,
+              "orgId": 541579
+            },
+            {
+              "type": "CLASS",
+              "id": 541831,
+              "orgId": 541831
+            },
+            {
+              "type": "CLASS",
+              "id": 542038,
+              "orgId": 542038
+            },
+            {
+              "type": "CLASS",
+              "id": 542041,
+              "orgId": 542041
+            },
+            {
+              "type": "CLASS",
+              "id": 542179,
+              "orgId": 542179
+            },
+            {
+              "type": "CLASS",
+              "id": 542287,
+              "orgId": 542287
+            },
+            {
+              "type": "CLASS",
+              "id": 543679,
+              "orgId": 543679
+            },
+            {
+              "type": "TEACHER",
+              "id": 7486,
+              "orgId": 7486
+            },
+            {
+              "type": "SUBJECT",
+              "id": 96724,
+              "orgId": 96724
+            },
+            {
+              "type": "ROOM",
+              "id": 4352,
+              "orgId": 4352
+            }
+          ],
+          "can": [
+            "READ_PERIODINFO"
+          ],
+          "is": [
+            "REGULAR"
+          ],
+          "homeWorks": null,
+          "exam": null,
+          "isOnlinePeriod": false,
+          "blockHash": 789266136
+        },
+        {
+          "id": 26552745,
+          "lessonId": 775438,
+          "startDateTime": "2025-08-12T15:00Z",
+          "endDateTime": "2025-08-12T15:50Z",
+          "foreColor": "#000000",
+          "backColor": "#e0ffff",
+          "innerForeColor": "#000000",
+          "innerBackColor": "#a1ebff",
+          "text": {
+            "lesson": "TGV Group 2",
+            "substitution": "",
+            "info": "",
+            "attachments": []
+          },
+          "elements": [
+            {
+              "type": "CLASS",
+              "id": 453964,
+              "orgId": 453964
+            },
+            {
+              "type": "CLASS",
+              "id": 458185,
+              "orgId": 458185
+            },
+            {
+              "type": "CLASS",
+              "id": 458350,
+              "orgId": 458350
+            },
+            {
+              "type": "CLASS",
+              "id": 541330,
+              "orgId": 541330
+            },
+            {
+              "type": "CLASS",
+              "id": 541333,
+              "orgId": 541333
+            },
+            {
+              "type": "CLASS",
+              "id": 541342,
+              "orgId": 541342
+            },
+            {
+              "type": "CLASS",
+              "id": 541354,
+              "orgId": 541354
+            },
+            {
+              "type": "CLASS",
+              "id": 541357,
+              "orgId": 541357
+            },
+            {
+              "type": "CLASS",
+              "id": 541360,
+              "orgId": 541360
+            },
+            {
+              "type": "CLASS",
+              "id": 541363,
+              "orgId": 541363
+            },
+            {
+              "type": "CLASS",
+              "id": 541366,
+              "orgId": 541366
+            },
+            {
+              "type": "CLASS",
+              "id": 541417,
+              "orgId": 541417
+            },
+            {
+              "type": "CLASS",
+              "id": 541531,
+              "orgId": 541531
+            },
+            {
+              "type": "CLASS",
+              "id": 541579,
+              "orgId": 541579
+            },
+            {
+              "type": "CLASS",
+              "id": 541831,
+              "orgId": 541831
+            },
+            {
+              "type": "CLASS",
+              "id": 542038,
+              "orgId": 542038
+            },
+            {
+              "type": "CLASS",
+              "id": 542041,
+              "orgId": 542041
+            },
+            {
+              "type": "CLASS",
+              "id": 542179,
+              "orgId": 542179
+            },
+            {
+              "type": "CLASS",
+              "id": 542287,
+              "orgId": 542287
+            },
+            {
+              "type": "CLASS",
+              "id": 543679,
+              "orgId": 543679
+            },
+            {
+              "type": "TEACHER",
+              "id": 7486,
+              "orgId": 7486
+            },
+            {
+              "type": "SUBJECT",
+              "id": 96724,
+              "orgId": 96724
+            },
+            {
+              "type": "ROOM",
+              "id": 4352,
+              "orgId": 4352
+            }
+          ],
+          "can": [
+            "READ_PERIODINFO"
+          ],
+          "is": [
+            "REGULAR"
+          ],
+          "homeWorks": null,
+          "exam": null,
+          "isOnlinePeriod": false,
+          "blockHash": 789266136
+        },
+        {
+          "id": 26554608,
+          "lessonId": 775561,
+          "startDateTime": "2025-08-12T08:00Z",
+          "endDateTime": "2025-08-12T08:50Z",
+          "foreColor": "#000000",
+          "backColor": "#e0ffff",
+          "innerForeColor": "#000000",
+          "innerBackColor": "#a1ebff",
+          "text": {
+            "lesson": "TGV Group 1",
+            "substitution": "",
+            "info": "",
+            "attachments": []
+          },
+          "elements": [
+            {
+              "type": "CLASS",
+              "id": 453985,
+              "orgId": 453985
+            },
+            {
+              "type": "CLASS",
+              "id": 541285,
+              "orgId": 541285
+            },
+            {
+              "type": "CLASS",
+              "id": 541306,
+              "orgId": 541306
+            },
+            {
+              "type": "CLASS",
+              "id": 541315,
+              "orgId": 541315
+            },
+            {
+              "type": "CLASS",
+              "id": 541360,
+              "orgId": 541360
+            },
+            {
+              "type": "CLASS",
+              "id": 541408,
+              "orgId": 541408
+            },
+            {
+              "type": "CLASS",
+              "id": 541414,
+              "orgId": 541414
+            },
+            {
+              "type": "CLASS",
+              "id": 541471,
+              "orgId": 541471
+            },
+            {
+              "type": "TEACHER",
+              "id": 7366,
+              "orgId": 7366
+            },
+            {
+              "type": "SUBJECT",
+              "id": 96781,
+              "orgId": 96781
+            },
+            {
+              "type": "ROOM",
+              "id": 4325,
+              "orgId": 4325
+            }
+          ],
+          "can": [
+            "READ_PERIODINFO"
+          ],
+          "is": [
+            "REGULAR"
+          ],
+          "homeWorks": null,
+          "exam": null,
+          "isOnlinePeriod": false,
+          "blockHash": -366346985
+        },
+        {
+          "id": 26554611,
+          "lessonId": 775561,
+          "startDateTime": "2025-08-12T09:00Z",
+          "endDateTime": "2025-08-12T09:50Z",
+          "foreColor": "#000000",
+          "backColor": "#e0ffff",
+          "innerForeColor": "#000000",
+          "innerBackColor": "#a1ebff",
+          "text": {
+            "lesson": "TGV Group 1",
+            "substitution": "",
+            "info": "",
+            "attachments": []
+          },
+          "elements": [
+            {
+              "type": "CLASS",
+              "id": 453985,
+              "orgId": 453985
+            },
+            {
+              "type": "CLASS",
+              "id": 541285,
+              "orgId": 541285
+            },
+            {
+              "type": "CLASS",
+              "id": 541306,
+              "orgId": 541306
+            },
+            {
+              "type": "CLASS",
+              "id": 541315,
+              "orgId": 541315
+            },
+            {
+              "type": "CLASS",
+              "id": 541360,
+              "orgId": 541360
+            },
+            {
+              "type": "CLASS",
+              "id": 541408,
+              "orgId": 541408
+            },
+            {
+              "type": "CLASS",
+              "id": 541414,
+              "orgId": 541414
+            },
+            {
+              "type": "CLASS",
+              "id": 541471,
+              "orgId": 541471
+            },
+            {
+              "type": "TEACHER",
+              "id": 7366,
+              "orgId": 7366
+            },
+            {
+              "type": "SUBJECT",
+              "id": 96781,
+              "orgId": 96781
+            },
+            {
+              "type": "ROOM",
+              "id": 4325,
+              "orgId": 4325
+            }
+          ],
+          "can": [
+            "READ_PERIODINFO"
+          ],
+          "is": [
+            "REGULAR"
+          ],
+          "homeWorks": null,
+          "exam": null,
+          "isOnlinePeriod": false,
+          "blockHash": -366346985
+        },
+        {
+          "id": 26554614,
+          "lessonId": 775561,
+          "startDateTime": "2025-08-14T08:00Z",
+          "endDateTime": "2025-08-14T08:50Z",
+          "foreColor": "#000000",
+          "backColor": "#e0ffff",
+          "innerForeColor": "#000000",
+          "innerBackColor": "#a1ebff",
+          "text": {
+            "lesson": "TGV Group 1",
+            "substitution": "",
+            "info": "",
+            "attachments": []
+          },
+          "elements": [
+            {
+              "type": "CLASS",
+              "id": 453985,
+              "orgId": 453985
+            },
+            {
+              "type": "CLASS",
+              "id": 541285,
+              "orgId": 541285
+            },
+            {
+              "type": "CLASS",
+              "id": 541306,
+              "orgId": 541306
+            },
+            {
+              "type": "CLASS",
+              "id": 541315,
+              "orgId": 541315
+            },
+            {
+              "type": "CLASS",
+              "id": 541360,
+              "orgId": 541360
+            },
+            {
+              "type": "CLASS",
+              "id": 541408,
+              "orgId": 541408
+            },
+            {
+              "type": "CLASS",
+              "id": 541414,
+              "orgId": 541414
+            },
+            {
+              "type": "CLASS",
+              "id": 541471,
+              "orgId": 541471
+            },
+            {
+              "type": "TEACHER",
+              "id": 7366,
+              "orgId": 7366
+            },
+            {
+              "type": "SUBJECT",
+              "id": 96781,
+              "orgId": 96781
+            },
+            {
+              "type": "ROOM",
+              "id": 4445,
+              "orgId": 4445
+            }
+          ],
+          "can": [
+            "READ_PERIODINFO"
+          ],
+          "is": [
+            "REGULAR"
+          ],
+          "homeWorks": null,
+          "exam": null,
+          "isOnlinePeriod": false,
+          "blockHash": 317401625
+        },
+        {
+          "id": 26554617,
+          "lessonId": 775561,
+          "startDateTime": "2025-08-14T09:00Z",
+          "endDateTime": "2025-08-14T09:50Z",
+          "foreColor": "#000000",
+          "backColor": "#e0ffff",
+          "innerForeColor": "#000000",
+          "innerBackColor": "#a1ebff",
+          "text": {
+            "lesson": "TGV Group 1",
+            "substitution": "",
+            "info": "",
+            "attachments": []
+          },
+          "elements": [
+            {
+              "type": "CLASS",
+              "id": 453985,
+              "orgId": 453985
+            },
+            {
+              "type": "CLASS",
+              "id": 541285,
+              "orgId": 541285
+            },
+            {
+              "type": "CLASS",
+              "id": 541306,
+              "orgId": 541306
+            },
+            {
+              "type": "CLASS",
+              "id": 541315,
+              "orgId": 541315
+            },
+            {
+              "type": "CLASS",
+              "id": 541360,
+              "orgId": 541360
+            },
+            {
+              "type": "CLASS",
+              "id": 541408,
+              "orgId": 541408
+            },
+            {
+              "type": "CLASS",
+              "id": 541414,
+              "orgId": 541414
+            },
+            {
+              "type": "CLASS",
+              "id": 541471,
+              "orgId": 541471
+            },
+            {
+              "type": "TEACHER",
+              "id": 7366,
+              "orgId": 7366
+            },
+            {
+              "type": "SUBJECT",
+              "id": 96781,
+              "orgId": 96781
+            },
+            {
+              "type": "ROOM",
+              "id": 4445,
+              "orgId": 4445
+            }
+          ],
+          "can": [
+            "READ_PERIODINFO"
+          ],
+          "is": [
+            "REGULAR"
+          ],
+          "homeWorks": null,
+          "exam": null,
+          "isOnlinePeriod": false,
+          "blockHash": 317401625
+        },
+        {
+          "id": 26554662,
+          "lessonId": 775564,
+          "startDateTime": "2025-08-15T10:00Z",
+          "endDateTime": "2025-08-15T10:50Z",
+          "foreColor": "#000000",
+          "backColor": "#e0ffff",
+          "innerForeColor": "#000000",
+          "innerBackColor": "#a1ebff",
+          "text": {
+            "lesson": "TGV Group 1",
+            "substitution": "",
+            "info": "",
+            "attachments": []
+          },
+          "elements": [
+            {
+              "type": "CLASS",
+              "id": 453964,
+              "orgId": 453964
+            },
+            {
+              "type": "CLASS",
+              "id": 541285,
+              "orgId": 541285
+            },
+            {
+              "type": "CLASS",
+              "id": 541306,
+              "orgId": 541306
+            },
+            {
+              "type": "CLASS",
+              "id": 541315,
+              "orgId": 541315
+            },
+            {
+              "type": "CLASS",
+              "id": 541360,
+              "orgId": 541360
+            },
+            {
+              "type": "CLASS",
+              "id": 541408,
+              "orgId": 541408
+            },
+            {
+              "type": "CLASS",
+              "id": 541414,
+              "orgId": 541414
+            },
+            {
+              "type": "CLASS",
+              "id": 541471,
+              "orgId": 541471
+            },
+            {
+              "type": "TEACHER",
+              "id": 7366,
+              "orgId": 7366
+            },
+            {
+              "type": "SUBJECT",
+              "id": 96784,
+              "orgId": 96784
+            },
+            {
+              "type": "ROOM",
+              "id": 4448,
+              "orgId": 4448
+            }
+          ],
+          "can": [
+            "READ_PERIODINFO"
+          ],
+          "is": [
+            "REGULAR"
+          ],
+          "homeWorks": null,
+          "exam": null,
+          "isOnlinePeriod": false,
+          "blockHash": -1888775558
+        },
+        {
+          "id": 26554665,
+          "lessonId": 775564,
+          "startDateTime": "2025-08-15T11:00Z",
+          "endDateTime": "2025-08-15T11:50Z",
+          "foreColor": "#000000",
+          "backColor": "#e0ffff",
+          "innerForeColor": "#000000",
+          "innerBackColor": "#a1ebff",
+          "text": {
+            "lesson": "TGV Group 1",
+            "substitution": "",
+            "info": "",
+            "attachments": []
+          },
+          "elements": [
+            {
+              "type": "CLASS",
+              "id": 453964,
+              "orgId": 453964
+            },
+            {
+              "type": "CLASS",
+              "id": 541285,
+              "orgId": 541285
+            },
+            {
+              "type": "CLASS",
+              "id": 541306,
+              "orgId": 541306
+            },
+            {
+              "type": "CLASS",
+              "id": 541315,
+              "orgId": 541315
+            },
+            {
+              "type": "CLASS",
+              "id": 541360,
+              "orgId": 541360
+            },
+            {
+              "type": "CLASS",
+              "id": 541408,
+              "orgId": 541408
+            },
+            {
+              "type": "CLASS",
+              "id": 541414,
+              "orgId": 541414
+            },
+            {
+              "type": "CLASS",
+              "id": 541471,
+              "orgId": 541471
+            },
+            {
+              "type": "TEACHER",
+              "id": 7366,
+              "orgId": 7366
+            },
+            {
+              "type": "SUBJECT",
+              "id": 96784,
+              "orgId": 96784
+            },
+            {
+              "type": "ROOM",
+              "id": 4448,
+              "orgId": 4448
+            }
+          ],
+          "can": [
+            "READ_PERIODINFO"
+          ],
+          "is": [
+            "REGULAR"
+          ],
+          "homeWorks": null,
+          "exam": null,
+          "isOnlinePeriod": false,
+          "blockHash": -1888775558
+        },
+        {
+          "id": 26555772,
+          "lessonId": 775642,
+          "startDateTime": "2025-08-12T10:00Z",
+          "endDateTime": "2025-08-12T10:50Z",
+          "foreColor": "#000000",
+          "backColor": "#e0ffff",
+          "innerForeColor": "#000000",
+          "innerBackColor": "#a1ebff",
+          "text": {
+            "lesson": "TGV Group 2",
+            "substitution": "",
+            "info": "",
+            "attachments": []
+          },
+          "elements": [
+            {
+              "type": "CLASS",
+              "id": 453964,
+              "orgId": 453964
+            },
+            {
+              "type": "CLASS",
+              "id": 458185,
+              "orgId": 458185
+            },
+            {
+              "type": "CLASS",
+              "id": 458350,
+              "orgId": 458350
+            },
+            {
+              "type": "CLASS",
+              "id": 541330,
+              "orgId": 541330
+            },
+            {
+              "type": "CLASS",
+              "id": 541333,
+              "orgId": 541333
+            },
+            {
+              "type": "CLASS",
+              "id": 541342,
+              "orgId": 541342
+            },
+            {
+              "type": "CLASS",
+              "id": 541354,
+              "orgId": 541354
+            },
+            {
+              "type": "CLASS",
+              "id": 541357,
+              "orgId": 541357
+            },
+            {
+              "type": "CLASS",
+              "id": 541360,
+              "orgId": 541360
+            },
+            {
+              "type": "CLASS",
+              "id": 541363,
+              "orgId": 541363
+            },
+            {
+              "type": "CLASS",
+              "id": 541366,
+              "orgId": 541366
+            },
+            {
+              "type": "CLASS",
+              "id": 541531,
+              "orgId": 541531
+            },
+            {
+              "type": "CLASS",
+              "id": 541579,
+              "orgId": 541579
+            },
+            {
+              "type": "CLASS",
+              "id": 541603,
+              "orgId": 541603
+            },
+            {
+              "type": "CLASS",
+              "id": 541831,
+              "orgId": 541831
+            },
+            {
+              "type": "CLASS",
+              "id": 542038,
+              "orgId": 542038
+            },
+            {
+              "type": "CLASS",
+              "id": 542041,
+              "orgId": 542041
+            },
+            {
+              "type": "CLASS",
+              "id": 543679,
+              "orgId": 543679
+            },
+            {
+              "type": "CLASS",
+              "id": 543697,
+              "orgId": 543697
+            },
+            {
+              "type": "TEACHER",
+              "id": 7414,
+              "orgId": 7414
+            },
+            {
+              "type": "SUBJECT",
+              "id": 96862,
+              "orgId": 96862
+            }
+          ],
+          "can": [
+            "READ_PERIODINFO"
+          ],
+          "is": [
+            "REGULAR"
+          ],
+          "homeWorks": null,
+          "exam": null,
+          "isOnlinePeriod": false,
+          "blockHash": -1239805865
+        },
+        {
+          "id": 26555775,
+          "lessonId": 775642,
+          "startDateTime": "2025-08-12T11:00Z",
+          "endDateTime": "2025-08-12T11:50Z",
+          "foreColor": "#000000",
+          "backColor": "#e0ffff",
+          "innerForeColor": "#000000",
+          "innerBackColor": "#a1ebff",
+          "text": {
+            "lesson": "TGV Group 2",
+            "substitution": "",
+            "info": "",
+            "attachments": []
+          },
+          "elements": [
+            {
+              "type": "CLASS",
+              "id": 453964,
+              "orgId": 453964
+            },
+            {
+              "type": "CLASS",
+              "id": 458185,
+              "orgId": 458185
+            },
+            {
+              "type": "CLASS",
+              "id": 458350,
+              "orgId": 458350
+            },
+            {
+              "type": "CLASS",
+              "id": 541330,
+              "orgId": 541330
+            },
+            {
+              "type": "CLASS",
+              "id": 541333,
+              "orgId": 541333
+            },
+            {
+              "type": "CLASS",
+              "id": 541342,
+              "orgId": 541342
+            },
+            {
+              "type": "CLASS",
+              "id": 541354,
+              "orgId": 541354
+            },
+            {
+              "type": "CLASS",
+              "id": 541357,
+              "orgId": 541357
+            },
+            {
+              "type": "CLASS",
+              "id": 541360,
+              "orgId": 541360
+            },
+            {
+              "type": "CLASS",
+              "id": 541363,
+              "orgId": 541363
+            },
+            {
+              "type": "CLASS",
+              "id": 541366,
+              "orgId": 541366
+            },
+            {
+              "type": "CLASS",
+              "id": 541531,
+              "orgId": 541531
+            },
+            {
+              "type": "CLASS",
+              "id": 541579,
+              "orgId": 541579
+            },
+            {
+              "type": "CLASS",
+              "id": 541603,
+              "orgId": 541603
+            },
+            {
+              "type": "CLASS",
+              "id": 541831,
+              "orgId": 541831
+            },
+            {
+              "type": "CLASS",
+              "id": 542038,
+              "orgId": 542038
+            },
+            {
+              "type": "CLASS",
+              "id": 542041,
+              "orgId": 542041
+            },
+            {
+              "type": "CLASS",
+              "id": 543679,
+              "orgId": 543679
+            },
+            {
+              "type": "CLASS",
+              "id": 543697,
+              "orgId": 543697
+            },
+            {
+              "type": "TEACHER",
+              "id": 7414,
+              "orgId": 7414
+            },
+            {
+              "type": "SUBJECT",
+              "id": 96862,
+              "orgId": 96862
+            }
+          ],
+          "can": [
+            "READ_PERIODINFO"
+          ],
+          "is": [
+            "REGULAR"
+          ],
+          "homeWorks": null,
+          "exam": null,
+          "isOnlinePeriod": false,
+          "blockHash": -1239805865
+        },
+        {
+          "id": 26555778,
+          "lessonId": 775642,
+          "startDateTime": "2025-08-13T10:00Z",
+          "endDateTime": "2025-08-13T10:50Z",
+          "foreColor": "#000000",
+          "backColor": "#e0ffff",
+          "innerForeColor": "#000000",
+          "innerBackColor": "#a1ebff",
+          "text": {
+            "lesson": "TGV Group 2",
+            "substitution": "",
+            "info": "",
+            "attachments": []
+          },
+          "elements": [
+            {
+              "type": "CLASS",
+              "id": 453964,
+              "orgId": 453964
+            },
+            {
+              "type": "CLASS",
+              "id": 458185,
+              "orgId": 458185
+            },
+            {
+              "type": "CLASS",
+              "id": 458350,
+              "orgId": 458350
+            },
+            {
+              "type": "CLASS",
+              "id": 541330,
+              "orgId": 541330
+            },
+            {
+              "type": "CLASS",
+              "id": 541333,
+              "orgId": 541333
+            },
+            {
+              "type": "CLASS",
+              "id": 541342,
+              "orgId": 541342
+            },
+            {
+              "type": "CLASS",
+              "id": 541354,
+              "orgId": 541354
+            },
+            {
+              "type": "CLASS",
+              "id": 541357,
+              "orgId": 541357
+            },
+            {
+              "type": "CLASS",
+              "id": 541360,
+              "orgId": 541360
+            },
+            {
+              "type": "CLASS",
+              "id": 541363,
+              "orgId": 541363
+            },
+            {
+              "type": "CLASS",
+              "id": 541366,
+              "orgId": 541366
+            },
+            {
+              "type": "CLASS",
+              "id": 541531,
+              "orgId": 541531
+            },
+            {
+              "type": "CLASS",
+              "id": 541579,
+              "orgId": 541579
+            },
+            {
+              "type": "CLASS",
+              "id": 541603,
+              "orgId": 541603
+            },
+            {
+              "type": "CLASS",
+              "id": 541831,
+              "orgId": 541831
+            },
+            {
+              "type": "CLASS",
+              "id": 542038,
+              "orgId": 542038
+            },
+            {
+              "type": "CLASS",
+              "id": 542041,
+              "orgId": 542041
+            },
+            {
+              "type": "CLASS",
+              "id": 543679,
+              "orgId": 543679
+            },
+            {
+              "type": "CLASS",
+              "id": 543697,
+              "orgId": 543697
+            },
+            {
+              "type": "TEACHER",
+              "id": 7414,
+              "orgId": 7414
+            },
+            {
+              "type": "SUBJECT",
+              "id": 96862,
+              "orgId": 96862
+            },
+            {
+              "type": "ROOM",
+              "id": 4325,
+              "orgId": 4325
+            }
+          ],
+          "can": [
+            "READ_PERIODINFO"
+          ],
+          "is": [
+            "REGULAR"
+          ],
+          "homeWorks": null,
+          "exam": null,
+          "isOnlinePeriod": false,
+          "blockHash": 1365522331
+        },
+        {
+          "id": 26555781,
+          "lessonId": 775642,
+          "startDateTime": "2025-08-13T11:00Z",
+          "endDateTime": "2025-08-13T11:50Z",
+          "foreColor": "#000000",
+          "backColor": "#e0ffff",
+          "innerForeColor": "#000000",
+          "innerBackColor": "#a1ebff",
+          "text": {
+            "lesson": "TGV Group 2",
+            "substitution": "",
+            "info": "",
+            "attachments": []
+          },
+          "elements": [
+            {
+              "type": "CLASS",
+              "id": 453964,
+              "orgId": 453964
+            },
+            {
+              "type": "CLASS",
+              "id": 458185,
+              "orgId": 458185
+            },
+            {
+              "type": "CLASS",
+              "id": 458350,
+              "orgId": 458350
+            },
+            {
+              "type": "CLASS",
+              "id": 541330,
+              "orgId": 541330
+            },
+            {
+              "type": "CLASS",
+              "id": 541333,
+              "orgId": 541333
+            },
+            {
+              "type": "CLASS",
+              "id": 541342,
+              "orgId": 541342
+            },
+            {
+              "type": "CLASS",
+              "id": 541354,
+              "orgId": 541354
+            },
+            {
+              "type": "CLASS",
+              "id": 541357,
+              "orgId": 541357
+            },
+            {
+              "type": "CLASS",
+              "id": 541360,
+              "orgId": 541360
+            },
+            {
+              "type": "CLASS",
+              "id": 541363,
+              "orgId": 541363
+            },
+            {
+              "type": "CLASS",
+              "id": 541366,
+              "orgId": 541366
+            },
+            {
+              "type": "CLASS",
+              "id": 541531,
+              "orgId": 541531
+            },
+            {
+              "type": "CLASS",
+              "id": 541579,
+              "orgId": 541579
+            },
+            {
+              "type": "CLASS",
+              "id": 541603,
+              "orgId": 541603
+            },
+            {
+              "type": "CLASS",
+              "id": 541831,
+              "orgId": 541831
+            },
+            {
+              "type": "CLASS",
+              "id": 542038,
+              "orgId": 542038
+            },
+            {
+              "type": "CLASS",
+              "id": 542041,
+              "orgId": 542041
+            },
+            {
+              "type": "CLASS",
+              "id": 543679,
+              "orgId": 543679
+            },
+            {
+              "type": "CLASS",
+              "id": 543697,
+              "orgId": 543697
+            },
+            {
+              "type": "TEACHER",
+              "id": 7414,
+              "orgId": 7414
+            },
+            {
+              "type": "SUBJECT",
+              "id": 96862,
+              "orgId": 96862
+            }
+          ],
+          "can": [
+            "READ_PERIODINFO"
+          ],
+          "is": [
+            "REGULAR"
+          ],
+          "homeWorks": null,
+          "exam": null,
+          "isOnlinePeriod": false,
+          "blockHash": 1247706968
+        }
+      ]
+    },
+    "masterData": {
+      "timeStamp": 1755031470430,
+      "absenceReasons": [],
+      "departments": [],
+      "duties": [],
+      "eventReasons": [],
+      "eventReasonGroups": [],
+      "excuseStatuses": [],
+      "holidays": [],
+      "klassen": [],
+      "rooms": [],
+      "subjects": [],
+      "teachers": [],
+      "teachingMethods": [],
+      "schoolyears": [],
+      "timeGrid": {
+        "days": [
+          {
+            "day": "MON",
+            "units": [
+              {
+                "label": "",
+                "startTime": "T08:00",
+                "endTime": "T08:50"
+              },
+              {
+                "label": "",
+                "startTime": "T09:00",
+                "endTime": "T09:50"
+              },
+              {
+                "label": "",
+                "startTime": "T10:00",
+                "endTime": "T10:50"
+              },
+              {
+                "label": "",
+                "startTime": "T11:00",
+                "endTime": "T11:50"
+              },
+              {
+                "label": "",
+                "startTime": "T12:00",
+                "endTime": "T12:50"
+              },
+              {
+                "label": "",
+                "startTime": "T13:00",
+                "endTime": "T13:50"
+              },
+              {
+                "label": "",
+                "startTime": "T14:00",
+                "endTime": "T14:50"
+              },
+              {
+                "label": "",
+                "startTime": "T15:00",
+                "endTime": "T15:50"
+              },
+              {
+                "label": "",
+                "startTime": "T16:00",
+                "endTime": "T16:50"
+              },
+              {
+                "label": "",
+                "startTime": "T17:00",
+                "endTime": "T17:50"
+              },
+              {
+                "label": "",
+                "startTime": "T18:00",
+                "endTime": "T18:50"
+              },
+              {
+                "label": "",
+                "startTime": "T19:00",
+                "endTime": "T19:50"
+              },
+              {
+                "label": "",
+                "startTime": "T20:00",
+                "endTime": "T20:50"
+              }
+            ]
+          },
+          {
+            "day": "TUE",
+            "units": [
+              {
+                "label": "",
+                "startTime": "T08:00",
+                "endTime": "T08:50"
+              },
+              {
+                "label": "",
+                "startTime": "T09:00",
+                "endTime": "T09:50"
+              },
+              {
+                "label": "",
+                "startTime": "T10:00",
+                "endTime": "T10:50"
+              },
+              {
+                "label": "",
+                "startTime": "T11:00",
+                "endTime": "T11:50"
+              },
+              {
+                "label": "",
+                "startTime": "T12:00",
+                "endTime": "T12:50"
+              },
+              {
+                "label": "",
+                "startTime": "T13:00",
+                "endTime": "T13:50"
+              },
+              {
+                "label": "",
+                "startTime": "T14:00",
+                "endTime": "T14:50"
+              },
+              {
+                "label": "",
+                "startTime": "T15:00",
+                "endTime": "T15:50"
+              },
+              {
+                "label": "",
+                "startTime": "T16:00",
+                "endTime": "T16:50"
+              },
+              {
+                "label": "",
+                "startTime": "T17:00",
+                "endTime": "T17:50"
+              },
+              {
+                "label": "",
+                "startTime": "T18:00",
+                "endTime": "T18:50"
+              },
+              {
+                "label": "",
+                "startTime": "T19:00",
+                "endTime": "T19:50"
+              },
+              {
+                "label": "",
+                "startTime": "T20:00",
+                "endTime": "T20:50"
+              }
+            ]
+          },
+          {
+            "day": "WED",
+            "units": [
+              {
+                "label": "",
+                "startTime": "T08:00",
+                "endTime": "T08:50"
+              },
+              {
+                "label": "",
+                "startTime": "T09:00",
+                "endTime": "T09:50"
+              },
+              {
+                "label": "",
+                "startTime": "T10:00",
+                "endTime": "T10:50"
+              },
+              {
+                "label": "",
+                "startTime": "T11:00",
+                "endTime": "T11:50"
+              },
+              {
+                "label": "",
+                "startTime": "T12:00",
+                "endTime": "T12:50"
+              },
+              {
+                "label": "",
+                "startTime": "T13:00",
+                "endTime": "T13:50"
+              },
+              {
+                "label": "",
+                "startTime": "T14:00",
+                "endTime": "T14:50"
+              },
+              {
+                "label": "",
+                "startTime": "T15:00",
+                "endTime": "T15:50"
+              },
+              {
+                "label": "",
+                "startTime": "T16:00",
+                "endTime": "T16:50"
+              },
+              {
+                "label": "",
+                "startTime": "T17:00",
+                "endTime": "T17:50"
+              },
+              {
+                "label": "",
+                "startTime": "T18:00",
+                "endTime": "T18:50"
+              },
+              {
+                "label": "",
+                "startTime": "T19:00",
+                "endTime": "T19:50"
+              },
+              {
+                "label": "",
+                "startTime": "T20:00",
+                "endTime": "T20:50"
+              }
+            ]
+          },
+          {
+            "day": "THU",
+            "units": [
+              {
+                "label": "",
+                "startTime": "T08:00",
+                "endTime": "T08:50"
+              },
+              {
+                "label": "",
+                "startTime": "T09:00",
+                "endTime": "T09:50"
+              },
+              {
+                "label": "",
+                "startTime": "T10:00",
+                "endTime": "T10:50"
+              },
+              {
+                "label": "",
+                "startTime": "T11:00",
+                "endTime": "T11:50"
+              },
+              {
+                "label": "",
+                "startTime": "T12:00",
+                "endTime": "T12:50"
+              },
+              {
+                "label": "",
+                "startTime": "T13:00",
+                "endTime": "T13:50"
+              },
+              {
+                "label": "",
+                "startTime": "T14:00",
+                "endTime": "T14:50"
+              },
+              {
+                "label": "",
+                "startTime": "T15:00",
+                "endTime": "T15:50"
+              },
+              {
+                "label": "",
+                "startTime": "T16:00",
+                "endTime": "T16:50"
+              },
+              {
+                "label": "",
+                "startTime": "T17:00",
+                "endTime": "T17:50"
+              },
+              {
+                "label": "",
+                "startTime": "T18:00",
+                "endTime": "T18:50"
+              },
+              {
+                "label": "",
+                "startTime": "T19:00",
+                "endTime": "T19:50"
+              },
+              {
+                "label": "",
+                "startTime": "T20:00",
+                "endTime": "T20:50"
+              }
+            ]
+          },
+          {
+            "day": "FRI",
+            "units": [
+              {
+                "label": "",
+                "startTime": "T08:00",
+                "endTime": "T08:50"
+              },
+              {
+                "label": "",
+                "startTime": "T09:00",
+                "endTime": "T09:50"
+              },
+              {
+                "label": "",
+                "startTime": "T10:00",
+                "endTime": "T10:50"
+              },
+              {
+                "label": "",
+                "startTime": "T11:00",
+                "endTime": "T11:50"
+              },
+              {
+                "label": "",
+                "startTime": "T12:00",
+                "endTime": "T12:50"
+              },
+              {
+                "label": "",
+                "startTime": "T13:00",
+                "endTime": "T13:50"
+              },
+              {
+                "label": "",
+                "startTime": "T14:00",
+                "endTime": "T14:50"
+              },
+              {
+                "label": "",
+                "startTime": "T15:00",
+                "endTime": "T15:50"
+              },
+              {
+                "label": "",
+                "startTime": "T16:00",
+                "endTime": "T16:50"
+              },
+              {
+                "label": "",
+                "startTime": "T17:00",
+                "endTime": "T17:50"
+              },
+              {
+                "label": "",
+                "startTime": "T18:00",
+                "endTime": "T18:50"
+              },
+              {
+                "label": "",
+                "startTime": "T19:00",
+                "endTime": "T19:50"
+              },
+              {
+                "label": "",
+                "startTime": "T20:00",
+                "endTime": "T20:50"
+              }
+            ]
+          },
+          {
+            "day": "SAT",
+            "units": [
+              {
+                "label": "",
+                "startTime": "T08:00",
+                "endTime": "T08:50"
+              },
+              {
+                "label": "",
+                "startTime": "T09:00",
+                "endTime": "T09:50"
+              },
+              {
+                "label": "",
+                "startTime": "T10:00",
+                "endTime": "T10:50"
+              },
+              {
+                "label": "",
+                "startTime": "T11:00",
+                "endTime": "T11:50"
+              },
+              {
+                "label": "",
+                "startTime": "T12:00",
+                "endTime": "T12:50"
+              },
+              {
+                "label": "",
+                "startTime": "T13:00",
+                "endTime": "T13:50"
+              },
+              {
+                "label": "",
+                "startTime": "T14:00",
+                "endTime": "T14:50"
+              },
+              {
+                "label": "",
+                "startTime": "T15:00",
+                "endTime": "T15:50"
+              },
+              {
+                "label": "",
+                "startTime": "T16:00",
+                "endTime": "T16:50"
+              },
+              {
+                "label": "",
+                "startTime": "T17:00",
+                "endTime": "T17:50"
+              },
+              {
+                "label": "",
+                "startTime": "T18:00",
+                "endTime": "T18:50"
+              },
+              {
+                "label": "",
+                "startTime": "T19:00",
+                "endTime": "T19:50"
+              },
+              {
+                "label": "",
+                "startTime": "T20:00",
+                "endTime": "T20:50"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

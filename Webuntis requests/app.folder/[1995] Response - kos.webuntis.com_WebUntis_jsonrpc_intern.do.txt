@@ -1,0 +1,132 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Tue, 12 Aug 2025 20:44:20 GMT
+Content-Type: application/json-rpc;charset=UTF-8
+Content-Length: 1347
+Connection: keep-alive
+Set-Cookie: traceId=5b2872f8ea0c04b3fb9da2edb1b81d55c380243a; Secure; SameSite=None
+requestId: d60b3ac49d958861f77d296ff8bce6ee
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Pragma: no-cache
+Cache-Control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Permissions-Policy: geolocation=(), microphone=(), fullscreen=(), camera=(), payment=(), usb=(), bluetooth=(), accelerometer=(), gyroscope=(), magnetometer=()
+Referrer-Policy: strict-origin-when-cross-origin
+Access-Control-Allow-Headers: Accept, Origin, X-Requested-With, Content-Type, Last-Modified
+Access-Control-Allow-Origin: *
+Permissions-Policy: geolocation=(), microphone=(), fullscreen=(), camera=(), payment=(), usb=(), bluetooth=(), accelerometer=(), gyroscope=(), magnetometer=()
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+
+{
+  "jsonrpc": "2.0",
+  "id": "UntisMobileiOS",
+  "result": {
+    "appcolors": [
+      {
+        "type": "FREE",
+        "foreColor": "#e6e6fa",
+        "backColor": "#e6e6fa"
+      },
+      {
+        "type": "LESSON",
+        "foreColor": "#000000",
+        "backColor": "#e0ffff"
+      },
+      {
+        "type": "RESERVATION",
+        "foreColor": "#000000",
+        "backColor": "#d7dd7a"
+      },
+      {
+        "type": "BOOK",
+        "foreColor": "#000000",
+        "backColor": "#b0bc00"
+      },
+      {
+        "type": "STORNO",
+        "foreColor": "#000000",
+        "backColor": "#f3c480"
+      },
+      {
+        "type": "BK_LOCK",
+        "foreColor": "#000000",
+        "backColor": "#b1b3b4"
+      },
+      {
+        "type": "HOLIDAY",
+        "foreColor": "#000000",
+        "backColor": "#53aedd"
+      },
+      {
+        "type": "HOLIDAY_LOCK",
+        "foreColor": "#000000",
+        "backColor": "#a2d8f4"
+      },
+      {
+        "type": "CONFLICT",
+        "foreColor": "#000000",
+        "backColor": "#e53527"
+      },
+      {
+        "type": "SUBST",
+        "foreColor": "#000000",
+        "backColor": "#a781b5"
+      },
+      {
+        "type": "CANCELLED",
+        "foreColor": "#000000",
+        "backColor": "#b1b3b4"
+      },
+      {
+        "type": "WITHOUT_ELEM",
+        "foreColor": "#000000",
+        "backColor": "#b1b3b4"
+      },
+      {
+        "type": "ELEM_CHANGED",
+        "foreColor": "#000000",
+        "backColor": "#a781b5"
+      },
+      {
+        "type": "SHIFT",
+        "foreColor": "#000000",
+        "backColor": "#a781b5"
+      },
+      {
+        "type": "SPECIALDUTY",
+        "foreColor": "#000000",
+        "backColor": "#a781b5"
+      },
+      {
+        "type": "EXAM",
+        "foreColor": "#000000",
+        "backColor": "#ffed00"
+      },
+      {
+        "type": "BREAKSUPERVISION",
+        "foreColor": "#000000",
+        "backColor": "#ea6ea3"
+      },
+      {
+        "type": "STANDBY",
+        "foreColor": "#000000",
+        "backColor": "#f49f25"
+      },
+      {
+        "type": "OFFICEHOUR",
+        "foreColor": "#000000",
+        "backColor": "#f49f25"
+      },
+      {
+        "type": "ABSENCE",
+        "foreColor": "#000000",
+        "backColor": "#e53527"
+      }
+    ]
+  }
+}

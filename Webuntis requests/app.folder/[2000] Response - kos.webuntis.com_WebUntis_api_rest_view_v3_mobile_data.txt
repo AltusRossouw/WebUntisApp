@@ -1,0 +1,55 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Tue, 12 Aug 2025 20:44:28 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+requestId: 3a1bd59ffc32c4d086bed8e0135f530b
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Pragma: no-cache
+Cache-Control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Permissions-Policy: geolocation=(), microphone=(), fullscreen=(), camera=(), payment=(), usb=(), bluetooth=(), accelerometer=(), gyroscope=(), magnetometer=()
+Referrer-Policy: strict-origin-when-cross-origin
+Referrer-Policy: strict-origin-when-cross-origin
+Permissions-Policy: geolocation=(), microphone=(), fullscreen=(), camera=(), payment=(), usb=(), bluetooth=(), accelerometer=(), gyroscope=(), magnetometer=()
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+
+{
+  "schoolYear": {
+    "dateRange": {
+      "start": "2025-01-01T00:00:00",
+      "end": "2025-12-31T00:00:00"
+    },
+    "id": 19,
+    "name": "2025/2026"
+  },
+  "tenant": {
+    "id": "9138900",
+    "displayName": "Eduvos Campus",
+    "wuVersion": "2026.0.1",
+    "language": "",
+    "schoolLoginName": "eduvos-campus"
+  },
+  "user": {
+    "id": 128984,
+    "username": "EDUV4930169@vossie.net",
+    "person": {
+      "id": 114479,
+      "displayName": "Rossouw Altus",
+      "imageUrl": null
+    },
+    "referencedStudents": [],
+    "locale": "en",
+    "departmentId": 0,
+    "role": "STUDENT",
+    "permissions": [
+      "CHANGE_OWN_PASSWORD"
+    ]
+  }
+}

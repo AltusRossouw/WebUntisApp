@@ -1,0 +1,25 @@
+POST /WebUntis/jsonrpc_intern.do?a=0&m=getAuthToken&s=kos.webuntis.com&school=eduvos-campus&v=i4.1.0 HTTP/1.1
+Host: kos.webuntis.com
+Content-Type: application/json
+Cookie: traceId=5b2872f8ea0c04b3fb9da2edb1b81d55c380243a; JSESSIONID=F07E6FD596C935C9AB14D66585D9C7C4; Tenant-Id="9138900"; schoolname="_ZWR1dm9zLWNhbXB1cw=="
+Connection: keep-alive
+Accept: */*
+User-Agent: Untis/4.1.0 (at.grupet.mobile.um; build:1760; iOS 18.6.0) Alamofire/5.10.2
+Accept-Language: en-US;q=1.0
+Content-Length: 162
+Accept-Encoding: br;q=1.0, gzip;q=0.9, deflate;q=0.8
+
+{
+  "params": [
+    {
+      "auth": {
+        "otp": 770256,
+        "clientTime": 1755031466842.0579,
+        "user": "EDUV4930169@vossie.net"
+      }
+    }
+  ],
+  "jsonrpc": "2.0",
+  "method": "getAuthToken",
+  "id": "UntisMobileiOS"
+}

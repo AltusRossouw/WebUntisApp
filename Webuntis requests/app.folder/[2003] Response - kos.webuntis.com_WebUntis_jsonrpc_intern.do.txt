@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Tue, 12 Aug 2025 20:44:30 GMT
+Content-Type: application/json-rpc;charset=UTF-8
+Content-Length: 880
+Connection: keep-alive
+requestId: f177ad4e293799d7f8e7dc3516aa268f
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Pragma: no-cache
+Cache-Control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Permissions-Policy: geolocation=(), microphone=(), fullscreen=(), camera=(), payment=(), usb=(), bluetooth=(), accelerometer=(), gyroscope=(), magnetometer=()
+Referrer-Policy: strict-origin-when-cross-origin
+Access-Control-Allow-Headers: Accept, Origin, X-Requested-With, Content-Type, Last-Modified
+Access-Control-Allow-Origin: *
+Permissions-Policy: geolocation=(), microphone=(), fullscreen=(), camera=(), payment=(), usb=(), bluetooth=(), accelerometer=(), gyroscope=(), magnetometer=()
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+
+{
+  "jsonrpc": "2.0",
+  "id": "UntisMobileiOS",
+  "result": {
+    "token": "eyJraWQiOiI3MzIxNjk2MzYiLCJhbGciOiJSUzI1NiJ9.eyJ0ZW5hbnRfaWQiOiI5MTM4OTAwIiwic3ViIjoiRURVVjQ5MzAxNjlAdm9zc2llLm5ldCIsInJvbGVzIjoiU1RVREVOVCIsImlzcyI6IndlYnVudGlzIiwibG9jYWxlIjoiZW4iLCJzYyI6IiIsInVzZXJfdHlwZSI6IlVTRVIiLCJyb3V0ZSI6IiIsInVzZXJfaWQiOjEyODk4NCwiaG9zdCI6Imtvcy53ZWJ1bnRpcy5jb20iLCJzbiI6ImVkdXZvcy1jYW1wdXMiLCJzY29wZXMiOiIiLCJleHAiOjE3NTUwMzIzNzAsInBlciI6W10sImlhdCI6MTc1NTAzMTQ3MCwidXNlcm5hbWUiOiJFRFVWNDkzMDE2OUB2b3NzaWUubmV0Iiwic3IiOiIiLCJwZXJzb25faWQiOjExNDQ3OX0.VZBegPQ1bZQghGeCd1NPHBgs9NRXMXysbTKjGjnzyq4u50arI95EuRDFBc8nB0xl8XS8wGI8vo1PQopzw9gYaj40XMounMl7YFMdaXW2ObSruEohT1pOv7kpDb2vGafI9n-uffcvyAl6jOCz2kIz8TFarLq17ryVWuEJwjUDRX1uXShG517sGkQZlYPixwzL5uT80RQECxYhMMKS-JMCI4rc8gbP5HXo6w9dxlsX6VUen-u_6q0IbVzgF-d2qpZSoWj9EuN-37qqrkAuZS-dyOtlr1GF2Na09wNavz7mADXZH0DqeYCQR6aFZahfuXGwFOoM41OZ2RegLaVJKhlEdQ"
+  }
+}

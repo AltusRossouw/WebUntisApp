@@ -1,0 +1,20 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Tue, 12 Aug 2025 20:44:28 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+
+{
+  "deviceOs": "IOS",
+  "deviceId": "307187CF-1406-52AE-B858-A00CBF2EA707",
+  "fcmToken": "eg4wncow2ky_k3PPSk8rdF:APA91bEi6t_sLqUMZ0KWiimQD4UEXvTY1EwjSkR6e6juxke_5653CgC4zfjJTpzfZ09iq7UXfZAokMBibziPqWTObz13yoa7LV5PplmH25dD7gRU2kectLQ",
+  "environment": "production",
+  "product": "um"
+}

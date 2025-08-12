@@ -1,0 +1,10 @@
+GET /WebUntis/api/rest/view/v1/trigger/startup HTTP/1.1
+Host: kos.webuntis.com
+Accept: */*
+Connection: keep-alive
+Cookie: traceId=5b2872f8ea0c04b3fb9da2edb1b81d55c380243a; JSESSIONID=F07E6FD596C935C9AB14D66585D9C7C4; Tenant-Id="9138900"; schoolname="_ZWR1dm9zLWNhbXB1cw=="
+User-Agent: Untis/4.1.0 (at.grupet.mobile.um; build:1760; iOS 18.6.0) Alamofire/5.10.2
+Accept-Language: en-US;q=1.0
+Authorization: Bearer eyJraWQiOiI3MzIxNjk2MzYiLCJhbGciOiJSUzI1NiJ9.eyJ0ZW5hbnRfaWQiOiI5MTM4OTAwIiwic3ViIjoiRURVVjQ5MzAxNjlAdm9zc2llLm5ldCIsInJvbGVzIjoiU1RVREVOVCIsImlzcyI6IndlYnVudGlzIiwibG9jYWxlIjoiZW4iLCJzYyI6IiIsInVzZXJfdHlwZSI6IlVTRVIiLCJyb3V0ZSI6IiIsInVzZXJfaWQiOjEyODk4NCwiaG9zdCI6Imtvcy53ZWJ1bnRpcy5jb20iLCJzbiI6ImVkdXZvcy1jYW1wdXMiLCJzY29wZXMiOiIiLCJleHAiOjE3NTUwMzIzNzAsInBlciI6W10sImlhdCI6MTc1NTAzMTQ3MCwidXNlcm5hbWUiOiJFRFVWNDkzMDE2OUB2b3NzaWUubmV0Iiwic3IiOiIiLCJwZXJzb25faWQiOjExNDQ3OX0.VZBegPQ1bZQghGeCd1NPHBgs9NRXMXysbTKjGjnzyq4u50arI95EuRDFBc8nB0xl8XS8wGI8vo1PQopzw9gYaj40XMounMl7YFMdaXW2ObSruEohT1pOv7kpDb2vGafI9n-uffcvyAl6jOCz2kIz8TFarLq17ryVWuEJwjUDRX1uXShG517sGkQZlYPixwzL5uT80RQECxYhMMKS-JMCI4rc8gbP5HXo6w9dxlsX6VUen-u_6q0IbVzgF-d2qpZSoWj9EuN-37qqrkAuZS-dyOtlr1GF2Na09wNavz7mADXZH0DqeYCQR6aFZahfuXGwFOoM41OZ2RegLaVJKhlEdQ
+Accept-Encoding: br;q=1.0, gzip;q=0.9, deflate;q=0.8
+

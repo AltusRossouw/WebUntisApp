@@ -1,0 +1,18 @@
+POST /api/register HTTP/1.1
+Host: push.webuntis.com
+Content-Type: application/json
+Accept: */*
+Connection: keep-alive
+Content-Length: 266
+User-Agent: Untis/4.1.0 (at.grupet.mobile.um; build:1760; iOS 18.6.0) Alamofire/5.10.2
+Accept-Language: en-US;q=1.0
+Authorization: Bearer eyJraWQiOiI3MzIxNjk2MzYiLCJhbGciOiJSUzI1NiJ9.eyJ0ZW5hbnRfaWQiOiI5MTM4OTAwIiwic3ViIjoiRURVVjQ5MzAxNjlAdm9zc2llLm5ldCIsInJvbGVzIjoiU1RVREVOVCIsImlzcyI6IndlYnVudGlzIiwibG9jYWxlIjoiZW4iLCJzYyI6IiIsInVzZXJfdHlwZSI6IlVTRVIiLCJyb3V0ZSI6IiIsInVzZXJfaWQiOjEyODk4NCwiaG9zdCI6Imtvcy53ZWJ1bnRpcy5jb20iLCJzbiI6ImVkdXZvcy1jYW1wdXMiLCJzY29wZXMiOiIiLCJleHAiOjE3NTUwMzIzNjcsInBlciI6W10sImlhdCI6MTc1NTAzMTQ2NywidXNlcm5hbWUiOiJFRFVWNDkzMDE2OUB2b3NzaWUubmV0Iiwic3IiOiIiLCJwZXJzb25faWQiOjExNDQ3OX0.cNob1qHeH9uTG0Qcp7el5UGl5li8tpRthRtknrOqPm6l647D-S_CxWQGWrravBbfdozaEqY0Y3Tt9LekwP_kpQzG_L0Ora2kvby9JmMTMGb62pbzQdWf8UeBSGIpnZB7vz-Q1uwYFjA5h7iyVU7MpoZ0w_4pTXbZIqGDoTlzhea9ojBDNyamNiLaqu5GrpAVb6sW4sS_kGanhV4dRDt5Nh57F1tIaToKuxF7T13G1R-j1TimaHYw1lLCvJ6j0hxKCq7PUbdz1PLVTxrjuF1QUdtg9eLoW7U-3DPVR22C8TtZIuqfCLbLL0edjJlICP5o0O2F0qF7Gln1li7Uw6-F1g
+Accept-Encoding: br;q=1.0, gzip;q=0.9, deflate;q=0.8
+
+{
+  "environment": "production",
+  "product": "um",
+  "deviceOs": "IOS",
+  "fcmToken": "eg4wncow2ky_k3PPSk8rdF:APA91bEi6t_sLqUMZ0KWiimQD4UEXvTY1EwjSkR6e6juxke_5653CgC4zfjJTpzfZ09iq7UXfZAokMBibziPqWTObz13yoa7LV5PplmH25dD7gRU2kectLQ",
+  "deviceId": "307187CF-1406-52AE-B858-A00CBF2EA707"
+}
