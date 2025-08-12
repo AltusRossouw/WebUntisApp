@@ -1,0 +1,204 @@
+{
+  "info": {
+    "name": "WebUntis Mobile (Unofficial)",
+    "_postman_id": "2a2a9f7f-6f0c-4a3d-8b01-2d19e9f9a9dd",
+    "description": "Minimal collection based on observed mobile API calls. Fill in variables under the collection before running.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    { "key": "baseHost", "value": "kos.webuntis.com" },
+    { "key": "schoolLogin", "value": "eduvos-campus" },
+    { "key": "tenantId", "value": "<TENANT_ID>" },
+    { "key": "schoolnameB64", "value": "ZWR1dm9zLWNhbXB1cw==" },
+    { "key": "username", "value": "<USERNAME>" },
+    { "key": "otp", "value": "<OTP>" },
+    { "key": "epochMs", "value": "0" },
+    { "key": "jsessionid", "value": "" },
+    { "key": "traceId", "value": "" },
+    { "key": "token", "value": "" },
+    { "key": "personId", "value": "<PERSON_ID>" },
+    { "key": "fcmToken", "value": "<FCM_TOKEN>" },
+    { "key": "deviceId", "value": "<DEVICE_ID>" }
+  ],
+  "item": [
+    {
+      "name": "JSON-RPC: getUserData2017",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" },
+          { "key": "Cookie", "value": "Tenant-Id=\"{{tenantId}}\"; schoolname=\"{{schoolnameB64}}\"" }
+        ],
+        "url": {
+          "raw": "https://{{baseHost}}/WebUntis/jsonrpc_intern.do?a=0&m=getUserData2017&s={{baseHost}}&school={{schoolLogin}}&v=i4.1.0",
+          "protocol": "https",
+          "host": ["{{baseHost}}"],
+          "path": ["WebUntis", "jsonrpc_intern.do"],
+          "query": [
+            { "key": "a", "value": "0" },
+            { "key": "m", "value": "getUserData2017" },
+            { "key": "s", "value": "{{baseHost}}" },
+            { "key": "school", "value": "{{schoolLogin}}" },
+            { "key": "v", "value": "i4.1.0" }
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"jsonrpc\": \"2.0\",\n  \"id\": \"UntisMobileiOS\",\n  \"method\": \"getUserData2017\",\n  \"params\": [{\n    \"auth\": { \"user\": \"{{username}}\", \"otp\": {{otp}}, \"clientTime\": {{epochMs}} }\n  }]\n}"
+        }
+      }
+    },
+    {
+      "name": "JSON-RPC: getAuthToken",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" },
+          { "key": "Cookie", "value": "Tenant-Id=\"{{tenantId}}\"; schoolname=\"{{schoolnameB64}}\"; JSESSIONID={{jsessionid}}" }
+        ],
+        "url": {
+          "raw": "https://{{baseHost}}/WebUntis/jsonrpc_intern.do?a=0&m=getAuthToken&s={{baseHost}}&school={{schoolLogin}}&v=i4.1.0",
+          "protocol": "https",
+          "host": ["{{baseHost}}"],
+          "path": ["WebUntis", "jsonrpc_intern.do"],
+          "query": [
+            { "key": "a", "value": "0" },
+            { "key": "m", "value": "getAuthToken" },
+            { "key": "s", "value": "{{baseHost}}" },
+            { "key": "school", "value": "{{schoolLogin}}" },
+            { "key": "v", "value": "i4.1.0" }
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"jsonrpc\": \"2.0\",\n  \"id\": \"UntisMobileiOS\",\n  \"method\": \"getAuthToken\",\n  \"params\": [{\n    \"auth\": { \"user\": \"{{username}}\", \"otp\": {{otp}}, \"clientTime\": {{epochMs}} }\n  }]\n}"
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "try {",
+              "  const json = pm.response.json();",
+              "  const token = json && json.result && json.result.token;",
+              "  if (token) pm.collectionVariables.set('token', token);",
+              "} catch (e) {}"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "REST: v3/mobile/data",
+      "request": {
+        "method": "GET",
+        "header": [
+          { "key": "Authorization", "value": "Bearer {{token}}" },
+          { "key": "Cookie", "value": "Tenant-Id=\"{{tenantId}}\"; schoolname=\"{{schoolnameB64}}\"; JSESSIONID={{jsessionid}}" }
+        ],
+        "url": {
+          "raw": "https://{{baseHost}}/WebUntis/api/rest/view/v3/mobile/data",
+          "protocol": "https",
+          "host": ["{{baseHost}}"],
+          "path": ["WebUntis", "api", "rest", "view", "v3", "mobile", "data"]
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "try {",
+              "  const json = pm.response.json();",
+              "  const pid = json && json.user && json.user.person && json.user.person.id;",
+              "  if (pid) pm.collectionVariables.set('personId', pid);",
+              "} catch (e) {}"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "JSON-RPC: getTimetable2017",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" },
+          { "key": "Cookie", "value": "Tenant-Id=\"{{tenantId}}\"; schoolname=\"{{schoolnameB64}}\"; JSESSIONID={{jsessionid}}" }
+        ],
+        "url": {
+          "raw": "https://{{baseHost}}/WebUntis/jsonrpc_intern.do?a=0&m=getTimetable2017&s={{baseHost}}&school={{schoolLogin}}&v=i4.1.0",
+          "protocol": "https",
+          "host": ["{{baseHost}}"],
+          "path": ["WebUntis", "jsonrpc_intern.do"],
+          "query": [
+            { "key": "a", "value": "0" },
+            { "key": "m", "value": "getTimetable2017" },
+            { "key": "s", "value": "{{baseHost}}" },
+            { "key": "school", "value": "{{schoolLogin}}" },
+            { "key": "v", "value": "i4.1.0" }
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"jsonrpc\": \"2.0\",\n  \"id\": \"UntisMobileiOS\",\n  \"method\": \"getTimetable2017\",\n  \"params\": [{\n    \"type\": \"STUDENT\",\n    \"id\": {{personId}},\n    \"startDate\": \"2025-08-11\",\n    \"endDate\": \"2025-08-16\",\n    \"masterDataTimestamp\": 0,\n    \"timetableTimestamp\": 0,\n    \"timetableTimestamps\": [0,0,0,0,0,0],\n    \"auth\": { \"user\": \"{{username}}\", \"otp\": {{otp}}, \"clientTime\": {{epochMs}} }\n  }]\n}"
+        }
+      }
+    },
+    {
+      "name": "REST: v1/dashboard/cards/status",
+      "request": {
+        "method": "GET",
+        "header": [
+          { "key": "Authorization", "value": "Bearer {{token}}" },
+          { "key": "Cookie", "value": "Tenant-Id=\"{{tenantId}}\"; schoolname=\"{{schoolnameB64}}\"; JSESSIONID={{jsessionid}}" }
+        ],
+        "url": {
+          "raw": "https://{{baseHost}}/WebUntis/api/rest/view/v1/dashboard/cards/status",
+          "protocol": "https",
+          "host": ["{{baseHost}}"],
+          "path": ["WebUntis", "api", "rest", "view", "v1", "dashboard", "cards", "status"]
+        }
+      }
+    },
+    {
+      "name": "REST: v1/trigger/startup",
+      "request": {
+        "method": "GET",
+        "header": [
+          { "key": "Authorization", "value": "Bearer {{token}}" },
+          { "key": "Cookie", "value": "Tenant-Id=\"{{tenantId}}\"; schoolname=\"{{schoolnameB64}}\"; JSESSIONID={{jsessionid}}" }
+        ],
+        "url": {
+          "raw": "https://{{baseHost}}/WebUntis/api/rest/view/v1/trigger/startup",
+          "protocol": "https",
+          "host": ["{{baseHost}}"],
+          "path": ["WebUntis", "api", "rest", "view", "v1", "trigger", "startup"]
+        }
+      }
+    },
+    {
+      "name": "Push: register",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Authorization", "value": "Bearer {{token}}" },
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "url": {
+          "raw": "https://push.webuntis.com/api/register",
+          "protocol": "https",
+          "host": ["push", "webuntis", "com"],
+          "path": ["api", "register"]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"environment\": \"production\",\n  \"product\": \"um\",\n  \"deviceOs\": \"IOS\",\n  \"fcmToken\": \"{{fcmToken}}\",\n  \"deviceId\": \"{{deviceId}}\"\n}"
+        }
+      }
+    }
+  ]
+}
