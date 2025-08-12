@@ -1,0 +1,318 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Tue, 12 Aug 2025 18:45:12 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+requestId: 5b3291a4fdf80be88256d6c14a0a2ed0
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Pragma: no-cache
+Cache-Control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Permissions-Policy: geolocation=(), microphone=(), fullscreen=(), camera=(), payment=(), usb=(), bluetooth=(), accelerometer=(), gyroscope=(), magnetometer=()
+Referrer-Policy: strict-origin-when-cross-origin
+Referrer-Policy: strict-origin-when-cross-origin
+Permissions-Policy: geolocation=(), microphone=(), fullscreen=(), camera=(), payment=(), usb=(), bluetooth=(), accelerometer=(), gyroscope=(), magnetometer=()
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+
+{
+  "firstDayOfWeek": "MO",
+  "studentFormat": 3,
+  "classFormat": 3,
+  "subjectFormat": 3,
+  "teacherFormat": 3,
+  "roomFormat": 3,
+  "resourceFormat": 0,
+  "formatDefinitions": [
+    {
+      "id": 0,
+      "name": "default",
+      "longname": "default",
+      "showStartEndTimeOfSlots": true,
+      "showStartEndTime": false,
+      "showCancellations": false,
+      "showExternalCalendars": true,
+      "hideDetails": false,
+      "minRows": 4,
+      "duration": {
+        "start": "08:00",
+        "end": "18:50"
+      },
+      "timeGridType": "LESSON_GRID",
+      "timeGridDays": [
+        "MO",
+        "TU",
+        "WE",
+        "TH",
+        "FR",
+        "SA"
+      ],
+      "timeGridSlots": [
+        {
+          "name": null,
+          "number": null,
+          "duration": {
+            "start": "08:00",
+            "end": "08:50"
+          }
+        },
+        {
+          "name": null,
+          "number": null,
+          "duration": {
+            "start": "09:00",
+            "end": "09:50"
+          }
+        },
+        {
+          "name": null,
+          "number": null,
+          "duration": {
+            "start": "10:00",
+            "end": "10:50"
+          }
+        },
+        {
+          "name": null,
+          "number": null,
+          "duration": {
+            "start": "11:00",
+            "end": "11:50"
+          }
+        },
+        {
+          "name": null,
+          "number": null,
+          "duration": {
+            "start": "12:00",
+            "end": "12:50"
+          }
+        },
+        {
+          "name": null,
+          "number": null,
+          "duration": {
+            "start": "13:00",
+            "end": "13:50"
+          }
+        },
+        {
+          "name": null,
+          "number": null,
+          "duration": {
+            "start": "14:00",
+            "end": "14:50"
+          }
+        },
+        {
+          "name": null,
+          "number": null,
+          "duration": {
+            "start": "15:00",
+            "end": "15:50"
+          }
+        },
+        {
+          "name": null,
+          "number": null,
+          "duration": {
+            "start": "16:00",
+            "end": "16:50"
+          }
+        },
+        {
+          "name": null,
+          "number": null,
+          "duration": {
+            "start": "17:00",
+            "end": "17:50"
+          }
+        },
+        {
+          "name": null,
+          "number": null,
+          "duration": {
+            "start": "18:00",
+            "end": "18:50"
+          }
+        },
+        {
+          "name": null,
+          "number": null,
+          "duration": {
+            "start": "19:00",
+            "end": "19:50"
+          }
+        },
+        {
+          "name": null,
+          "number": null,
+          "duration": {
+            "start": "20:00",
+            "end": "20:50"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Student View",
+      "longname": "Student View",
+      "showStartEndTimeOfSlots": false,
+      "showStartEndTime": false,
+      "showCancellations": false,
+      "showExternalCalendars": true,
+      "hideDetails": false,
+      "minRows": 4,
+      "duration": {
+        "start": "08:00",
+        "end": "20:50"
+      },
+      "timeGridType": "CLOCK_HOURS",
+      "timeGridDays": [
+        "MO",
+        "TU",
+        "WE",
+        "TH",
+        "FR",
+        "SA"
+      ],
+      "timeGridSlots": []
+    },
+    {
+      "id": 5,
+      "name": "default",
+      "longname": "default",
+      "showStartEndTimeOfSlots": true,
+      "showStartEndTime": false,
+      "showCancellations": false,
+      "showExternalCalendars": true,
+      "hideDetails": false,
+      "minRows": 3,
+      "duration": {
+        "start": "08:00",
+        "end": "20:50"
+      },
+      "timeGridType": "LESSON_GRID",
+      "timeGridDays": [
+        "MO",
+        "TU",
+        "WE",
+        "TH",
+        "FR",
+        "SA"
+      ],
+      "timeGridSlots": [
+        {
+          "name": null,
+          "number": null,
+          "duration": {
+            "start": "08:00",
+            "end": "08:50"
+          }
+        },
+        {
+          "name": null,
+          "number": null,
+          "duration": {
+            "start": "09:00",
+            "end": "09:50"
+          }
+        },
+        {
+          "name": null,
+          "number": null,
+          "duration": {
+            "start": "10:00",
+            "end": "10:50"
+          }
+        },
+        {
+          "name": null,
+          "number": null,
+          "duration": {
+            "start": "11:00",
+            "end": "11:50"
+          }
+        },
+        {
+          "name": null,
+          "number": null,
+          "duration": {
+            "start": "12:00",
+            "end": "12:50"
+          }
+        },
+        {
+          "name": null,
+          "number": null,
+          "duration": {
+            "start": "13:00",
+            "end": "13:50"
+          }
+        },
+        {
+          "name": null,
+          "number": null,
+          "duration": {
+            "start": "14:00",
+            "end": "14:50"
+          }
+        },
+        {
+          "name": null,
+          "number": null,
+          "duration": {
+            "start": "15:00",
+            "end": "15:50"
+          }
+        },
+        {
+          "name": null,
+          "number": null,
+          "duration": {
+            "start": "16:00",
+            "end": "16:50"
+          }
+        },
+        {
+          "name": null,
+          "number": null,
+          "duration": {
+            "start": "17:00",
+            "end": "17:50"
+          }
+        },
+        {
+          "name": null,
+          "number": null,
+          "duration": {
+            "start": "18:00",
+            "end": "18:50"
+          }
+        },
+        {
+          "name": null,
+          "number": null,
+          "duration": {
+            "start": "19:00",
+            "end": "19:50"
+          }
+        },
+        {
+          "name": null,
+          "number": null,
+          "duration": {
+            "start": "20:00",
+            "end": "20:50"
+          }
+        }
+      ]
+    }
+  ]
+}

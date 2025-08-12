@@ -1,0 +1,80 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Tue, 12 Aug 2025 18:45:13 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+requestId: d9e5d658f9dca8c5bb75592a53e5049d
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Pragma: no-cache
+Cache-Control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Permissions-Policy: geolocation=(), microphone=(), fullscreen=(), camera=(), payment=(), usb=(), bluetooth=(), accelerometer=(), gyroscope=(), magnetometer=()
+Referrer-Policy: strict-origin-when-cross-origin
+Referrer-Policy: strict-origin-when-cross-origin
+Permissions-Policy: geolocation=(), microphone=(), fullscreen=(), camera=(), payment=(), usb=(), bluetooth=(), accelerometer=(), gyroscope=(), magnetometer=()
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+
+{
+  "resourceType": "STUDENT",
+  "preSelected": {
+    "id": 114479,
+    "shortName": "EDUV4930169@vossie.net",
+    "longName": "Rossouw",
+    "displayName": "Rossouw Altus"
+  },
+  "buildings": [],
+  "departments": [],
+  "roomGroups": [],
+  "resourceTypes": [],
+  "assignmentGroups": [],
+  "classes": [
+    {
+      "class": {
+        "id": 541360,
+        "shortName": "TY105X0401-02",
+        "longName": "Bachelor of Science in Information Technology (Software Engineering)",
+        "displayName": "TY105X0401-02"
+      },
+      "classTeacher1": null,
+      "classTeacher2": null,
+      "department": null
+    }
+  ],
+  "resources": [],
+  "rooms": [],
+  "subjects": [],
+  "students": [
+    {
+      "student": {
+        "id": 114479,
+        "shortName": "EDUV4930169@vossie.net",
+        "longName": "Rossouw",
+        "displayName": "EDUV4930169@vossie.net"
+      },
+      "classes": [
+        {
+          "class": {
+            "id": 541360,
+            "shortName": "TY105X0401-02",
+            "longName": "Bachelor of Science in Information Technology (Software Engineering)",
+            "displayName": "TY105X0401-02"
+          },
+          "dateRange": {
+            "start": "2025-01-01",
+            "end": "2025-12-31"
+          },
+          "department": null
+        }
+      ],
+      "assignmentGroups": [],
+      "imageUrl": null
+    }
+  ],
+  "teachers": []
+}

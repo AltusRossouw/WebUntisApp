@@ -1,0 +1,25 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Tue, 12 Aug 2025 18:44:37 GMT
+Content-Type: application/json;charset=utf-8
+Content-Length: 819
+Connection: keep-alive
+requestId: fac69c6cda13928c1de544f91eeb994a
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Pragma: no-cache
+Cache-Control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+X-SessionDurationMilliSeconds: 1810000
+X-SessionStatusId: 55a3154a-c8eb-4212-a0d6-96a4ffc4fa06
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Permissions-Policy: geolocation=(), microphone=(), fullscreen=(), camera=(), payment=(), usb=(), bluetooth=(), accelerometer=(), gyroscope=(), magnetometer=()
+Referrer-Policy: strict-origin-when-cross-origin
+Referrer-Policy: strict-origin-when-cross-origin
+Permissions-Policy: geolocation=(), microphone=(), fullscreen=(), camera=(), payment=(), usb=(), bluetooth=(), accelerometer=(), gyroscope=(), magnetometer=()
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+
+eyJraWQiOiI3MzIxNjk2MzYiLCJhbGciOiJSUzI1NiJ9.eyJ0ZW5hbnRfaWQiOiI5MTM4OTAwIiwic3ViIjoiRURVVjQ5MzAxNjlAdm9zc2llLm5ldCIsInJvbGVzIjoiU1RVREVOVCIsImlzcyI6IndlYnVudGlzIiwibG9jYWxlIjoiZW4iLCJzYyI6IiIsInVzZXJfdHlwZSI6IlVTRVIiLCJyb3V0ZSI6IiIsInVzZXJfaWQiOjEyODk4NCwiaG9zdCI6Imtvcy53ZWJ1bnRpcy5jb20iLCJzbiI6ImVkdXZvcy1jYW1wdXMiLCJzY29wZXMiOiIiLCJleHAiOjE3NTUwMjUxNzcsInBlciI6W10sImlhdCI6MTc1NTAyNDI3NywidXNlcm5hbWUiOiJFRFVWNDkzMDE2OUB2b3NzaWUubmV0Iiwic3IiOiIiLCJwZXJzb25faWQiOjExNDQ3OX0.UilLzIviih1LcqyuPEQxAFmUxvSliS4Hkcbw4xy11sQKM8haVaaX6iqCbPiELy1vrpfMOoouP4lDI74RtTZ_xhdsSZPwr6fR8J0M8OJ7IibhCA-W8azV-YLim9hqIqRG-w69wuW8huZBgAOlPmhCr6Su6TnvB1EukDHQfrC7bhU6EnZX798SYrGEz5HoYNYMYNiZSeJOWrTFkLiSasQFuqBUpn-jpXuevoiHNn7I_IFt7xeCahn6Z2kEn-PNhijKWOYMz6T5obMaCOdyzzE01I24tD9VnMveaSydOvoE5K_z5_oxZRNxrxaYECnC9GZmY-bfh06xTEvDHPxvB0Y7UA

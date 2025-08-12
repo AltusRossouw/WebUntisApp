@@ -1,0 +1,206 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Tue, 12 Aug 2025 18:44:36 GMT
+Content-Type: text/html;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+requestId: b75537defd9c388a213cce6332f4edac
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Pragma: no-cache
+Cache-Control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Content-Language: en
+Permissions-Policy: geolocation=(), microphone=(), fullscreen=(), camera=(), payment=(), usb=(), bluetooth=(), accelerometer=(), gyroscope=(), magnetometer=()
+Referrer-Policy: strict-origin-when-cross-origin
+Referrer-Policy: strict-origin-when-cross-origin
+Permissions-Policy: geolocation=(), microphone=(), fullscreen=(), camera=(), payment=(), usb=(), bluetooth=(), accelerometer=(), gyroscope=(), magnetometer=()
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+Content-Encoding: gzip
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <title>WebUntis</title>
+
+    <script type="text/javascript">
+        var dojoConfig = {
+            async: true,
+            has: {
+                // Deprecation-Warnungen ausgeben
+//                "dojo-debug-messages": true
+            },
+            baseUrl: "https://content.webuntis.com/WebUntis/static/2026.0.1/js/",
+            packages: [
+                {name: "dojo", location: "lib/dojo"},
+                {name: "dijit", location: "lib/dijit"},
+                {name: "dojox", location: "lib/dojox"},
+                {name: "put-selector", location: "lib/put-selector"},
+                "grupet",
+                "webuntis",
+                "webuntis-embedded",
+                "webuntis-anonymous",
+                "webuntis-monitor",
+                "pods",
+                "untis"
+            ],
+            grupet: {"mode":"STANDARD","locale":"en","contextPath":"/WebUntis","licence":{"name":"Eduvos Campus","name2":"ZA-1685 Midrand, 44 Alsatian Road"},"mandantName":"eduvos-campus","mandant":31393,"customerNumber":91389,"imageServiceConfig":{"customLogo":false},"loginServiceConfig":{"useNewSamlImplementation":true,"ssoSamlProviders":[],"loginError":"","lastUserName":"","lastMandantName":"","anonymousMode":false,"userRegistrationEnabled":false,"user":{"name":"EDUV4930169@vossie.net","id":128984,"departmentId":0,"roleId":5,"userGroupId":5,"personId":114479,"persons":[{"id":114479,"type":5,"displayName":"Rossouw Altus","longName":"Rossouw","foreName":"Altus"}],"email":"eduv4930169@vossie.net"},"ssoOffice365":false,"ssoOffice365LoginUrl":null,"adminEmail":null,"hideWuLogin":false,"oidcProviderLabel":"OpenID Connect","ssoOidc":true},"staticResourcesUrl":"https://content.webuntis.com/WebUntis/static/2026.0.1","calendarServiceConfig":{"today":null,"currentDate":"2025-08-12","currentSchoolyearId":19,"schoolyears":[{"semesters":[],"name":"2025/2026","id":19,"startDate":"2025-01-01","endDate":"2025-12-31","schoolyearId":19,"finalMarkActive":true}],"holidays":[],"showWeekNumbers":false,"weekendDays":[0],"firstDayOfWeek":1,"minNumberOfDaysInFirstWeek":5},"serviceDescriptors":{"jsonBookingService":{"url":"jsonBookingService","methods":["changeBookingDate","getBookableRooms","isValidBookingId"]},"jsonStudentLessonMatrixService":{"url":"jsonStudentLessonMatrixService","methods":["getFilter","load","save"]},"jsonStudentgroupService":{"url":"jsonStudentgroupService","methods":["getStudentLessonPeriodMatrix","submitStudentLessonPeriodData"]},"jsonTeacherService":{"url":"jsonTeacherService","methods":["getEmailAddressesOfTeachers","updateTeacherVarQuota","updateTeacherVarStatus","getAllTeacherStatuses"]},"jsonLessonTopicService":{"url":"jsonLessonTopicService","methods":["renumberLessonTopics"]},"jsonUserProfileService":{"url":"jsonUserProfileService","methods":["activateTotp","getTotpKey","setNewAdminDetails","deactivateTotp","getPasswordRules","generateTotpKey","isTotpEnabled"]},"jsonHomeworkService":{"url":"jsonHomeworkService","methods":["save","deleteHomework"]},"jsonStudentDutyService":{"url":"jsonStudentDutyService","methods":[]},"jsonAddressService":{"url":"jsonAddressService","methods":["readFor","save","deleteAddress"]},"jsonKlasseService":{"url":"jsonKlasseService","methods":["getUserIdsOfKlassen","getStudentIdsOfKlassen","getTeacherIdsOfKlassen","getPersonIdsOfKlassen"]}},"publicAppAccessAllowed":false,"appCredentials":null,"appColors":[{"id":1,"labelKey":"LBL_FREE_HOUR","backColor":"#e6e6fa","foreColor":"#e6e6fa"},{"id":2,"labelKey":"IDC_LESSON","backColor":"#e0ffff"},{"id":3,"labelKey":"LBL_NOT_CONFIRMED","backColor":"#d7dd7a"},{"id":4,"labelKey":"LBL_ACTIVITY","backColor":"#b0bc00"},{"id":5,"labelKey":"LBL_STORNO_BK","backColor":"#f3c480"},{"id":6,"labelKey":"LBL_HOUR_NOT_ALLOWED","backColor":"#b1b3b4"},{"id":7,"labelKey":"LBL_HOLIDAY_BK","backColor":"#53aedd"},{"id":8,"labelKey":"LBL_HOLIDAY_NO_BK","backColor":"#a2d8f4"},{"id":9,"labelKey":"HDR_CONFLICT_LIST","backColor":"#e53527"},{"id":10,"labelKey":"LBL_SUBSTITUTION","backColor":"#a781b5"},{"id":11,"labelKey":"LBL_CANCELLED","backColor":"#b1b3b4"},{"id":12,"labelKey":"LBL_WITHOUT_ELEM","backColor":"#b1b3b4"},{"id":13,"labelKey":"LBL_ELEM_CHANGED","backColor":"#a781b5"},{"id":14,"labelKey":"LBL_SHIFT","backColor":"#a781b5"},{"id":15,"labelKey":"LBL_SPECIALDUTY","backColor":"#a781b5"},{"id":16,"labelKey":"LBL_EXAM","backColor":"#ffed00"},{"id":17,"labelKey":"IDC_BREAKSUPERVISION","backColor":"#ea6ea3"},{"id":18,"labelKey":"IDC_STANDBY","backColor":"#f49f25"},{"id":19,"labelKey":"IDC_OFFICEHOUR","backColor":"#f49f25"},{"id":20,"labelKey":"LBL_ABSENCE","backColor":"#e53527"}],"timetableConfig":{"weeklyElementTypes":[5]},"contentUrl":null,"kioskMode":false,"departmentServiceConfig":{"globalDepartmentFilterEnabled":false,"globalDepartmentId":0,"departments":[]},"messageServiceConfig":null,"menuConfig":[{"children":[],"lbl":"LBL_TODAY","action":{"args":["main"],"cmd":"loadContent"},"id":10,"group":0},{"children":[{"lbl":"IDM_TT_STUDENT","action":{"args":["/basic/timetable?selectedTab=5"],"cmd":"loadContent"},"id":105,"group":0}],"lbl":"IDM_TT_TIMETABLE","id":1,"group":0},{"children":[{"lbl":"IDM_BK_MYLESSONS","action":{"args":["lessonlist"],"cmd":"loadContent"},"id":801,"group":4}],"lbl":"IDM_LS_LESSON","id":8,"group":4},{"children":[],"lbl":"IDM_AM_ADMIN","id":4,"group":23},{"children":[],"lbl":"IDM_CB_PROFIL","id":113,"group":30},{"children":[],"lbl":"LBL_FILE_STORAGE","id":114,"group":30}],"userServiceConfig":{"roles":[],"searchAllowed":false,"mustSetupGoogleAuthenticator":false,"googleAuthenticatorSetupLoginRetries":0,"isGoogleAuthenticatorSet":false,"locale":"en"},"inputAssistantConfig":{"active":false,"stepTimetablingCompleted":true},"canEditMessageOfDay":false,"ttSidebarMinimized":false,"isBackupWarningEnabled":false,"sessionTimeout":1800,"navItems":["TODAY","TIMETABLE","PROFILE"],"embedNewUI":false,"hasOneDrive":false,"oneDriveClientId":"d4acf9ca-5400-48f0-96db-e356769fa9fb","isAdmin":false,"isDirectorate":false,"isStaff":false,"isTeacher":false,"isWUSSO":false,"schoolQueryUrl":"https://webuntis.com","isPlayground":false,"isIntegrationsDisabledMessage":null,"runningPollingJobs":[],"pollingConfig":[{"pollingType":"REPORT","pollingInterval":5000}],"playgrounds":[],"imprintUrl":"https://www.untis.at/HTML/impressum.php","hasPrivacyPolicy":false,"csrfHeader":"X-CSRF-TOKEN","csrfToken":"ZJ-p2Ps2Lg5PD4iNccVkFpnol7Ky9MMbezFIXliCaLITEvugVK6d6M0HTWtiO7y9E-hQd6DfuovTl_U2SlRxZmjhXYoqccjG","ui2020":true,"isUI2020ActiveForCurrentUser":true,"isNewStudentNavigationActive":true,"isMessageWeb2021FeatureFlagEnabled":true,"tenantId":"9138900"}
+        };
+        dojoConfig.locale = dojoConfig.grupet.locale;
+
+        window.untisUIVersion = 1;
+        window.untisMomentLocale= "en";
+        window.untis__webpack_public_path__ = "https://content.webuntis.com/WebUntis/static/2026.0.1/js/untis/";
+    </script>
+
+    <script type="text/javascript" src="https://content.webuntis.com/WebUntis/static/2026.0.1/js/untis/moment/moment.min.js"></script>
+
+
+
+    
+    <script type="text/javascript" src="https://content.webuntis.com/WebUntis/static/2026.0.1/js/untis/webpack.js"></script>
+
+    
+    <script type="text/javascript" src="https://content.webuntis.com/WebUntis/static/2026.0.1/js/untis/react.js"></script>
+    <script type="text/javascript" src="https://content.webuntis.com/WebUntis/static/2026.0.1/js/untis/ramda.js"></script>
+    <script type="text/javascript" src="https://content.webuntis.com/WebUntis/static/2026.0.1/js/untis/rx.js"></script>
+    <script type="text/javascript" src="https://content.webuntis.com/WebUntis/static/2026.0.1/js/untis/ag-grid.js"></script>
+    <script type="text/javascript" src="https://content.webuntis.com/WebUntis/static/2026.0.1/js/untis/draft-js.js"></script>
+    <script type="text/javascript" src="https://content.webuntis.com/WebUntis/static/2026.0.1/js/untis/immutable.js"></script>
+
+
+
+    
+
+    <script type="text/javascript">
+        // IE 9 console patch
+        var method;
+        var noop = function () {};
+        var methods = [
+            'assert', 'clear', 'count', 'debug', 'dir', 'dirxml', 'error',
+            'exception', 'group', 'groupCollapsed', 'groupEnd', 'info', 'log',
+            'markTimeline', 'profile', 'profileEnd', 'table', 'time', 'timeEnd',
+            'timeStamp', 'trace', 'warn'
+        ];
+        var length = methods.length;
+        var console = (window.console = window.console || {});
+
+        while (length--) {
+            method = methods[length];
+
+            // Only stub undefined methods.
+            if (!console[method]) {
+                console[method] = noop;
+            }
+        }
+
+        // IE 10 Fix
+        if (window.navigator.language === undefined) {
+            window.navigator.language = window.navigator.userLanguage;
+        }
+    </script>
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://content.webuntis.com/WebUntis/static/2026.0.1/Images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="https://content.webuntis.com/WebUntis/static/2026.0.1/Styles/webuntis.css">
+    <link rel="stylesheet" type="text/css" href="https://content.webuntis.com/WebUntis/static/2026.0.1/Styles/widgets.css">
+    <link rel="stylesheet" type="text/css" href="https://content.webuntis.com/WebUntis/static/2026.0.1/Styles/icons.css">
+
+    
+    
+    
+    
+    <link rel="stylesheet" href="/WebUntis/appColor/viewColors.css">
+
+    
+        
+        
+            <link rel="stylesheet" type="text/css" href="https://content.webuntis.com/WebUntis/static/2026.0.1/js/lib/dojo/resources/dojo.css"/>
+            <link rel="stylesheet" type="text/css" href="https://content.webuntis.com/WebUntis/static/2026.0.1/js/lib/dijit/themes/claro/claro.css"/>
+            <link rel="stylesheet" type="text/css" href="https://content.webuntis.com/WebUntis/static/2026.0.1/Styles/anonymous.css">
+        
+    
+
+    <script src="https://content.webuntis.com/WebUntis/static/2026.0.1/js/socket.io-2.1.1.js"></script>
+    <script type="text/javascript" src="https://content.webuntis.com/WebUntis/static/2026.0.1/js/lib/dojo/dojo.js"></script>
+
+    <link rel="stylesheet" href="https://content.webuntis.com/WebUntis/static/2026.0.1/Styles/clusterize-0.18.1.min.css">
+    <script src="https://content.webuntis.com/WebUntis/static/2026.0.1/js/clusterize-0.18.1.min.js"></script>
+
+    
+    <link rel="stylesheet" type="text/css" href="https://content.webuntis.com/WebUntis/static/2026.0.1/Styles/font-awesome.css">
+    <style type="text/css">
+        @font-face {
+            font-family: "Noto Sans";
+            src: url(https://content.webuntis.com/WebUntis/static/2026.0.1/js/untis/fonts/NotoSans-Regular.ttf) format("truetype");
+        }
+        @font-face {
+            font-family: "Space Grotesk";
+            src: url(https://content.webuntis.com/WebUntis/static/2026.0.1/js/untis/fonts/SpaceGrotesk-Regular.ttf) format("truetype");
+        }
+        @font-face {
+            font-family: "UNIcons";
+            src: url(https://content.webuntis.com/WebUntis/static/2026.0.1/js/untis/fonts/UNIcons.woff) format("woff");
+        }
+        @font-face {
+            font-family: 'AvenirNextW05';
+            font-weight: 400;
+            src: url(https://content.webuntis.com/WebUntis/static/2026.0.1/js/untis/fonts/AvenirNextW05-Regular.eot?#iefix);
+            src: url(https://content.webuntis.com/WebUntis/static/2026.0.1/js/untis/fonts/AvenirNextW05-Regular.eot?#iefix) format('eot'), url(https://content.webuntis.com/WebUntis/static/2026.0.1/js/untis/fonts/AvenirNextW05-Regular.woff2) format('woff2'), url(https://content.webuntis.com/WebUntis/static/2026.0.1/js/untis/fonts/AvenirNextW05-Regular.woff) format('woff'), url(https://content.webuntis.com/WebUntis/static/2026.0.1/js/untis/fonts/AvenirNextW05-Regular.ttf) format('truetype');
+        }
+        @font-face {
+            font-family: 'AvenirNextW05';
+            font-weight: 600;
+            src: url(https://content.webuntis.com/WebUntis/static/2026.0.1/js/untis/fonts/AvenirNextW05-Demi.eot?#iefix);
+            src: url(https://content.webuntis.com/WebUntis/static/2026.0.1/js/untis/fonts/AvenirNextW05-Demi.eot?#iefix) format('eot'), url(https://content.webuntis.com/WebUntis/static/2026.0.1/js/untis/fonts/AvenirNextW05-Demi.woff2) format('woff2'), url(https://content.webuntis.com/WebUntis/static/2026.0.1/js/untis/fonts/AvenirNextW05-Demi.woff) format('woff'), url(https://content.webuntis.com/WebUntis/static/2026.0.1/js/untis/fonts/AvenirNextW05-Demi.ttf) format('truetype');
+        }
+
+        @font-face {
+            font-family: 'AvenirNextW05';
+            font-weight: 700;
+            src: url(https://content.webuntis.com/WebUntis/static/2026.0.1/js/untis/fonts/AvenirNextW05-Bold.eot?#iefix);
+            src: url(https://content.webuntis.com/WebUntis/static/2026.0.1/js/untis/fonts/AvenirNextW05-Bold.eot?#iefix) format('eot'), url(https://content.webuntis.com/WebUntis/static/2026.0.1/js/untis/fonts/AvenirNextW05-Bold.woff2) format('woff2'), url(https://content.webuntis.com/WebUntis/static/2026.0.1/js/untis/fonts/AvenirNextW05-Bold.woff) format('woff'), url(https://content.webuntis.com/WebUntis/static/2026.0.1/js/untis/fonts/AvenirNextW05-Bold.ttf) format('truetype');
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="https://content.webuntis.com/WebUntis/static/2026.0.1/js/untis/styles/wrapper.css">
+</head>
+<body class="claro">
+ <!--[if lt IE 9]>
+<div style="background: yellow; padding: 5px;">
+    
+        
+        
+            <a href="https://content.webuntis.com/WebUntis/static/2026.0.1/html/browser-not-supported-en.html" style="text-decoration: none; color: black;">
+                Your browser might not be supported by WebUntis - click here for further information!
+            </a>
+        
+    
+</div>
+<![endif]-->
+<div id="grupetLoadingMessage">
+    Loading WebUntis...
+</div>
+
+
+
+<script type="text/javascript" src="https://content.webuntis.com/WebUntis/static/2026.0.1/js/untis/wrapper.js"></script>
+<script type="text/javascript" src="https://content.webuntis.com/WebUntis/static/2026.0.1/js/webuntis/main.js"></script>
+</body>
+</html>

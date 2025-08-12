@@ -1,0 +1,264 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Tue, 12 Aug 2025 18:44:40 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+requestId: b2fc5cff5f9f0e1f492dd38079d0ff2b
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Permissions-Policy: geolocation=(), microphone=(), fullscreen=(), camera=(), payment=(), usb=(), bluetooth=(), accelerometer=(), gyroscope=(), magnetometer=()
+Referrer-Policy: strict-origin-when-cross-origin
+Referrer-Policy: strict-origin-when-cross-origin
+Permissions-Policy: geolocation=(), microphone=(), fullscreen=(), camera=(), payment=(), usb=(), bluetooth=(), accelerometer=(), gyroscope=(), magnetometer=()
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+
+{
+  "data": {
+    "data": {
+      "basic/messagecenter": {
+        "student": "wu_nachrichten.htm",
+        "teacher": "wu_nachrichten.htm",
+        "admin": "wu_nachrichten.htm",
+        "default": "wu_nachrichten.htm"
+      },
+      "main": {
+        "default": "einfuehrungke.htm"
+      },
+      "parentsdaylist": {
+        "default": "wu_das_anlegen_eines_sp.htm"
+      },
+      "parentsdayform": {
+        "default": "wu_das_anlegen_eines_sp.htm"
+      },
+      "parentsdayteacherlist": {
+        "default": "wu_berichte_sprechtag.htm"
+      },
+      "parentsdayparentadmin": {
+        "default": "wu_zentrale_terminbearbeitung.htm"
+      },
+      "parentsdayteacher": {
+        "default": "wu_die_planungsphase.htm"
+      },
+      "parentsday/parentview": {
+        "default": "wu_der_sprechtag_aus_der.htm"
+      },
+      "importparentsdayteachersettings": {
+        "default": "wu_berichte_sprechtag.htm"
+      },
+      "messagecenter": {
+        "default": "wu_nachrichten.htm"
+      },
+      "useradmin": {
+        "default": "wu_passwort.htm"
+      },
+      "createuserform": {
+        "default": "wu_passwort.htm"
+      },
+      "importuser": {
+        "default": "wu_passwort.htm"
+      },
+      "activitysettings": {
+        "default": "index.html"
+      },
+      "ttsettingsform": {
+        "default": "wu_stundenplaneinstellungen.htm"
+      },
+      "formats": {
+        "default": "wu_ansichtseinstellungen.htm"
+      },
+      "timetableformatform": {
+        "default": "wu_stundenplanformate.htm"
+      },
+      "overviewformatform": {
+        "default": "wu_stundenplanformate.htm"
+      },
+      "icsformatform": {
+        "default": "wu_ics_formate.htm"
+      },
+      "monitorformats": {
+        "default": "wu_vertretungslisten.htm"
+      },
+      "substitutionformatform": {
+        "default": "wu_vertretungslisten.htm"
+      },
+      "integrations": {
+        "default": "wu_integrationseinstellungen_uwu.htm"
+      },
+      "messagedaylist": {
+        "default": "wu_nachrichten_zum_tag.htm"
+      },
+      "usergrouplist": {
+        "default": "wu_anlegen_von_benutzergruppen.htm"
+      },
+      "usergroupform": {
+        "default": "wu_anlegen_von_benutzergruppen.htm"
+      },
+      "rightlist": {
+        "default": "wu_rechte.htm"
+      },
+      "usertasklist": {
+        "default": "wu_aufgaben.htm"
+      },
+      "basic/timetable": {
+        "default": "wu_stundenplananzeige.htm"
+      },
+      "examCalendar": {
+        "default": "wu_pruefungsplanung.htm"
+      },
+      "lessonlist": {
+        "default": "wu_mein_unterricht.htm"
+      },
+      "newlesson": {
+        "default": "wu_neuer_unterricht.htm"
+      },
+      "teachermarkschemalist": {
+        "default": "wu_einstellungen_-_noten.htm"
+      },
+      "assignmentgrouplist": {
+        "default": "wu_zuordnungsgruppen.htm"
+      },
+      "studentattributetypelist": {
+        "default": "wu_schlereigenschaften.htm"
+      },
+      "activityformatform": "wu_aktivittslisten.htm",
+      "dayoverviewformatform": "wu_tagesuebersichtsformate.htm",
+      "assignmentgroupform": "wu_zuordnungsgruppen.htm",
+      "lessontopiclistteacher": "wu_offene_stunden.htm",
+      "lessontopiclistklasse": "wu_offene_stunden_klasse.htm",
+      "absencelist": "wu_entschuldigte_fehlstunden.htm",
+      "absencetimes": "wu_fehlstunden.htm",
+      "absencereasonlist": "wu_abwesenheitsgrnde.htm",
+      "classregreportsform": "wu_allgemeines2.htm",
+      "classregsettings": "wu_einstellungen_zum_klassenbuch.htm",
+      "classregeventlist": "wu_klassenbucheintraege.htm",
+      "studentduty": "wu_aufruf_der_klassendienste.htm",
+      "exemptionlist": "wu_befreiungen.htm",
+      "coursesettingsform": "wu_kurse_einstellungen.htm",
+      "courseparticipants": "wu_kurse_bearbeiten.htm",
+      "coursetemplatelist": "wu_kursvorlagen.htm",
+      "coursetemplateform": "wu_kursvorlagen.htm",
+      "courselist": "wu_modul_student.htm",
+      "courseform": "wu_kurse_anlegen.htm",
+      "coursecategorylist": "wu_st_kurskategorien.htm",
+      "coursecategoryform": "wu_st_kurskategorien.htm",
+      "coursechoicecategorylist": "wu_kurswahlkategorien.htm",
+      "coursechoicecategoryform": "wu_kurswahlkategorien.htm",
+      "coursemodulelist": "wu_kursmodule.htm",
+      "coursemoduleform": "wu_kursmodule.htm",
+      "coursestudyphaselist": "wu_studienabschnitt.htm",
+      "registrationtimelist": "wu_an-_und_abmeldezeitraum.htm",
+      "course/courses": "wu_einstellungen4.htm",
+      "basic/profile": "wu_user-profil.htm",
+      "classreg/studentabsences": "wu_klassenbuch_fr_schler.htm",
+      "classreg/classreg": "wu_klassenbuch_fr_schler.htm",
+      "classreg/studentexemptions": "wu_klassenbuch_fr_schler.htm",
+      "classreg/studentclassregevents": "wu_klassenbuch_fr_schler.htm",
+      "classreg/lessongrades": "wu_klassenbuch_fr_schler.htm",
+      "classreg/studentclassservices": "wu_klassenbuch_fr_schler.htm",
+      "basic/studenthomeworks": "wu_klassenbuch_fr_schler.htm",
+      "basic/studentexams": "wu_klassenbuch_fr_schler.htm",
+      "booking": "wu_termin.htm",
+      "activity": "wu_termin.htm",
+      "appointmentsearch": "wu_termin.htm",
+      "resourcebooking": "wu_termin.htm",
+      "lessonchangeroom": "wu_termin.htm",
+      "bookingworkitems": "wu_arbeitsliste.htm",
+      "bookinglistadmin": "wu_nr1_17900_administration_-_te.htm",
+      "conflictform": "wu_nr1_17900_administration_-_te.htm",
+      "bookingreportsform": "wu_berichte_zur_buchung.htm",
+      "bookingrestrictions": "wu_buchungsbeschraenkungen.htm",
+      "bookinglocklist": "wu_zeitsperren.htm",
+      "roomlocklist": "wu_raumsperren.htm",
+      "bookingformformatlist": "wu_buchungsformate.htm",
+      "Timetable": "wu_stundenplananzeige.htm",
+      "selectelementform": "wu_raumuebersicht.htm",
+      "examlist": "wu__nr1_10100_prfungen.htm",
+      "lessonteacherlist": "wu_mein_unterricht.htm",
+      "studentlistsort": "wu_die_fensterhandhabung_stammdat.htm",
+      "klasselist": "wu_klassen.htm",
+      "klasseform": "wu_klassen.htm",
+      "studentlist": "wu_studenten.htm",
+      "studentform": "wu_studenten.htm",
+      "importstudent": "wu_import_der_schuelerdaten.htm",
+      "teacherlistsort": "wu_die_fensterhandhabung_stammdat.htm",
+      "teacherstatuslist": "wu_stammdaten_lehrer.htm",
+      "teacherstatusform": "wu_stammdaten_lehrer.htm",
+      "subjectlist": "wu_fcher.htm",
+      "subjecform": "wu_fcher.htm",
+      "subjectlistsort": "wu_die_fensterhandhabung_stammdat.htm",
+      "subjectgrouplist": "wu_fachgruppen.htm",
+      "subjectgroupform": "wu_fachgruppen.htm",
+      "subjectgrouplistsort": "wu_die_fensterhandhabung_stammdat.htm",
+      "subjectform": "wu_fcherh.htm",
+      "roomlist": "wu_pflege_der_raumdaten.htm",
+      "roomform": "wu_pflege_der_raumdaten.htm",
+      "roomlistsort": "wu_die_fensterhandhabung_stammdat.htm",
+      "roomgrouplist": "wu_raumgruppen.htm",
+      "roomgroupform": "wu_raumgruppen.htm",
+      "roomgrouplistsort": "wu_die_fensterhandhabung_stammdat.htm",
+      "roomtypelist": "wu_raumart.htm",
+      "roomtypeform": "wu_raumart.htm",
+      "roomtypelistsort": "wu_die_fensterhandhabung_stammdat.htm",
+      "buildinglist": "wu_gebaeude2.htm",
+      "buildingform": "wu_gebaeude2.htm",
+      "buildinglistsort": "wu_die_fensterhandhabung_stammdat.htm",
+      "resourcelist": "wu_ressourcen.htm",
+      "resourceform": "wu_ressourcen.htm",
+      "resourcelistsort": "wu_die_fensterhandhabung_stammdat.htm",
+      "resourcegrouplist": "wu_ressourcengruppen.htm",
+      "resourcegroupform": "wu_ressourcengruppen.htm",
+      "resourcegrouplistsort": "wu_die_fensterhandhabung_stammdat.htm",
+      "resourcetypelist": "wu_ressourcearten.htm",
+      "resourcetypeform": "wu_ressourcearten.htm",
+      "resourcetypelistsort": "wu_die_fensterhandhabung_stammdat.htm",
+      "absencereasonform": "wu_abwesenheitsgrnde.htm",
+      "absencereasonlistsort": "wu_die_fensterhandhabung_stammdat.htm",
+      "excusestatuslist": "wu_entschuldigungsstatus.htm",
+      "excusestatusform": "wu_entschuldigungsstatus.htm",
+      "excusestatuslistsort": "wu_die_fensterhandhabung_stammdat.htm",
+      "exemptionreasonlist.do": "wu_befreiungsgrnde.htm",
+      "exemptionreasonform": "wu_befreiungsgrnde.htm",
+      "exemptionreasonlistsort": "wu_die_fensterhandhabung_stammdat.htm",
+      "eventreasonlist": "wu_eintragskategorie.htm",
+      "eventreasonform": "wu_eintragskategorie.htm",
+      "eventreasonlistsort": "wu_die_fensterhandhabung_stammdat.htm",
+      "dutylist": "wu_dienste.htm",
+      "dutyform": "wu_dienste.htm",
+      "dutylistsort": "wu_die_fensterhandhabung_stammdat.htm",
+      "markschemalist": "wu_notenschemen.htm",
+      "markschemaform": "wu_notenschemen.htm",
+      "markschemalistsort": "wu_die_fensterhandhabung_stammdat.htm",
+      "examtypelist": "wu_prfungsart.htm",
+      "examtypeform": "wu_prfungsart.htm",
+      "examtypelistsort": "wu_die_fensterhandhabung_stammdat.htm",
+      "teachingmethodlist": "wu_lehrformen.htm",
+      "teachingmethodform": "wu_lehrformen.htm",
+      "teachingmethodlistsort": "wu_die_fensterhandhabung_stammdat.htm",
+      "activitytypelist": "wu_unterrichtsarten.htm",
+      "activitytypeform": "wu_unterrichtsarten.htm",
+      "activitytypelistsort": "wu_die_fensterhandhabung_stammdat.htm",
+      "reductionreasonlist": "wu_anrechnungsgrnde.htm",
+      "reductionreasonform": "wu_anrechnungsgrnde.htm",
+      "reductionreasonlistsort": "wu_die_fensterhandhabung_stammdat.htm",
+      "departmentlist": "wu_abteilungen.htm",
+      "departmentform": "wu_abteilungen.htm",
+      "departmentlistsort": "wu_die_fensterhandhabung_stammdat.htm",
+      "holidaylist": "wu_schuljahreswechsel.htm",
+      "holidayform": "wu_schuljahreswechsel.htm",
+      "holidaylistsort": "wu_die_fensterhandhabung_stammdat.htm",
+      "schoolyearlist": "wu_schuljahreswechsel.htm",
+      "schoolyearform": "wu_schuljahreswechsel.htm",
+      "settingsform": "wu_grundeinstellungen.htm",
+      "userlist": "wu_benutzerverwaltung.htm"
+    }
+  }
+}

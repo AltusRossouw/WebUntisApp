@@ -1,0 +1,19 @@
+GET /WebUntis/api/rest/view/v1/onboarding?type=TIMETABLE HTTP/1.1
+Host: kos.webuntis.com
+Connection: keep-alive
+sec-ch-ua-platform: "macOS"
+Authorization: Bearer eyJraWQiOiI3MzIxNjk2MzYiLCJhbGciOiJSUzI1NiJ9.eyJ0ZW5hbnRfaWQiOiI5MTM4OTAwIiwic3ViIjoiRURVVjQ5MzAxNjlAdm9zc2llLm5ldCIsInJvbGVzIjoiU1RVREVOVCIsImlzcyI6IndlYnVudGlzIiwibG9jYWxlIjoiZW4iLCJzYyI6IiIsInVzZXJfdHlwZSI6IlVTRVIiLCJyb3V0ZSI6IiIsInVzZXJfaWQiOjEyODk4NCwiaG9zdCI6Imtvcy53ZWJ1bnRpcy5jb20iLCJzbiI6ImVkdXZvcy1jYW1wdXMiLCJzY29wZXMiOiIiLCJleHAiOjE3NTUwMjUyMTMsInBlciI6W10sImlhdCI6MTc1NTAyNDMxMywidXNlcm5hbWUiOiJFRFVWNDkzMDE2OUB2b3NzaWUubmV0Iiwic3IiOiIiLCJwZXJzb25faWQiOjExNDQ3OX0.TQxD7t6ZLpkSNo06eBaApwHeRKOhiNbspMSybtop3hwwO6dOoXL-SyaFoAFodyGHvDvfZAcWax0CgPivW0-Qu3vZV8pzyFSVYKRy5Icigr5kv6zkJ-qnzk0wjKF_iReiy0yLPS7yR0ChO1Wq7FL-v-hGEX-kGW6tVaRRzV-6Kqj6KO-Yb61FHjAOPW9YIlhL55Q4AudUiSHaaxL2KJc7leHglD8ZMWpjm0OI-4k_As_qwnsa6jKwmUtikGHYLn2B_9769YK0flY5az3ZKVWesAfifEGuwTixAhSY6BJWLP0IazRpGjgwriLn9j_G9hdcEI3qfq4BtJGWORyBUYHQzA
+sec-ch-ua: "Not;A=Brand";v="99", "Microsoft Edge";v="139", "Chromium";v="139"
+sec-ch-ua-mobile: ?0
+X-Webuntis-Api-School-Year-Id: 19
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0
+Accept: application/json, text/plain, */*
+Tenant-Id: 9138900
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://kos.webuntis.com/timetable/my-student?date=2025-08-11
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: schoolname="_ZWR1dm9zLWNhbXB1cw=="; Tenant-Id="9138900"; traceId=f71af5f558ffa18b4d6b8b4427f116ab73f576c9; JSESSIONID=827A77BDB4674E0A9B7E77142B7B8DCC; _sleek_session=%7B%22init%22%3A%222025-06-08T06%3A17%3A36.807Z%22%7D
+

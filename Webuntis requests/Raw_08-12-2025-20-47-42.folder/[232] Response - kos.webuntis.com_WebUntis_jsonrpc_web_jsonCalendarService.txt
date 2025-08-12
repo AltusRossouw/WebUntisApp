@@ -1,0 +1,26 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Tue, 12 Aug 2025 18:44:37 GMT
+Content-Type: application/json-rpc;charset=UTF-8
+Content-Length: 39
+Connection: keep-alive
+requestId: 70aa64ce886b0bcf9f59b6b1acb3a9a7
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Pragma: no-cache
+Cache-Control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Permissions-Policy: geolocation=(), microphone=(), fullscreen=(), camera=(), payment=(), usb=(), bluetooth=(), accelerometer=(), gyroscope=(), magnetometer=()
+Referrer-Policy: strict-origin-when-cross-origin
+Access-Control-Allow-Origin: https://kos.webuntis.com
+Access-Control-Allow-Methods: GET, POST, OPTIONS, DELETE, PUT, PATCH
+Access-Control-Allow-Headers: Accept, Origin, X-Requested-With, Content-Type, Last-Modified, Authorization, X-Webuntis-Api-School-Year-Id, Tenant-Id
+
+{
+  "jsonrpc": "2.0",
+  "id": 0,
+  "result": true
+}

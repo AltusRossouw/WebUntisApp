@@ -1,0 +1,16 @@
+GET /WebUntis/api/token/new HTTP/1.1
+Host: kos.webuntis.com
+Connection: keep-alive
+sec-ch-ua-platform: "macOS"
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0
+Accept: application/json, text/plain, */*
+sec-ch-ua: "Not;A=Brand";v="99", "Microsoft Edge";v="139", "Chromium";v="139"
+sec-ch-ua-mobile: ?0
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://kos.webuntis.com/timetable/my-student
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: schoolname="_ZWR1dm9zLWNhbXB1cw=="; Tenant-Id="9138900"; schoolname="_ZWR1dm9zLWNhbXB1cw=="; Tenant-Id="9138900"; traceId=f71af5f558ffa18b4d6b8b4427f116ab73f576c9; JSESSIONID=827A77BDB4674E0A9B7E77142B7B8DCC; _sleek_session=%7B%22init%22%3A%222025-06-08T06%3A17%3A36.807Z%22%7D
+

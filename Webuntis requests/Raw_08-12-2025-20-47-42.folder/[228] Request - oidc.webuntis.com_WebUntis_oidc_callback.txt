@@ -1,0 +1,17 @@
+GET /WebUntis/oidc/callback?code=1.AXoABdeHz9wj6EqoZkf7SST6emtl93uaa2lAjgIGKeWFELJ6APN6AA.AgABBAIAAABVrSpeuWamRam2jAF1XRQEAwDs_wUA9P-6GfVMSinOUmHc4mTGJCsErBw_4aHusrF4mc5vIV6SD6bMmnRAVLvT3OKW7e6zwGLILqvP2J1bH1Vqd2c-FrqUouXCarybq96l2DxATfnuQ3WCZZ-VZUrgVaQAQRd_k73inpBwMh0I9k0b0WPW-ljDAkfZ2RzD3GI9sKHzi_UfeZNNtOhKg3fGjnnuXEV1LuI8aWPWoasOLSw3SPKh1o-EEi9ekIB2YzwKJldfW1JnrdyfVIVMXrdELLTnKBnYbtstirc-vwLPp905f5Qo9JuD3bIMc-yPKzR3PQv4kH8bGswz9NxNd3aryLZyUDvKUA-BoLHM07jbBE60iRXn2dEZbdkaXFNsXuJAcNgf3cycrcmAhGqu7jMWLZ1H-g_8B7eoG6PbejibLTOnRR6x-SxB_77u-kkZCeNsuKSg5tw9Hr4-qRbwMEfa8u_XW3Orj32orYadRrCvCLF3_MHAirWcWZgMTYly_6JlJnUV7On0LJynDQjYf7Xm6wayPQayBAXwMpDxKr2FyocBWetpdJLkiUyviC-ZQr5hah28PaUebgIHNvYTGbrQvj7EBgiKfLux8PrDL7gqdREWVzHZ8bB84TfqmfZryede7qkMM2U02UMX7i9e6Z8xrgnCQYC913JJbtc9l82PsBlMhaLx84NmRxYIqaqkR3p0MaXefJ2z1r2Z7HQHz7ZDtu_fhdQBf-oHkd7Uqe9q-e3IODDU1M7mHOtNrxaQakTXiAnzz0QTf4N0AaczPE03nTnN_55XlHhUYza0Zu0duTLbzziP8myEjqJznWrDdakqvzTZEyeIrHZ9e2gGlYeteyO8NAU3qw&state=NzFjODE2ZmYtN2NkNC00YjE4LTliOWYtZWE4ZjcyNDI1MjZkL2tvcy53ZWJ1bnRpcy5jb20vQWhYX2llTTV1dGs9&session_state=005098e9-9c35-0302-5487-0d5ba30410b5 HTTP/1.1
+Host: oidc.webuntis.com
+Connection: keep-alive
+sec-ch-ua: "Not;A=Brand";v="99", "Microsoft Edge";v="139", "Chromium";v="139"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "macOS"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: document
+Referer: https://login.microsoftonline.com/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: _sleek_session=%7B%22init%22%3A%222025-06-08T06%3A17%3A36.807Z%22%7D
+

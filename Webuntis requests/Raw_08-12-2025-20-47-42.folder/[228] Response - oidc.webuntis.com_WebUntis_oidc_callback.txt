@@ -1,0 +1,12 @@
+HTTP/1.1 302 Found
+Server: nginx
+Date: Tue, 12 Aug 2025 18:44:35 GMT
+Content-Length: 0
+Connection: keep-alive
+requestId: 41edfab7f467560f5b088952430ebe37
+Location: https://kos.webuntis.com/WebUntis/oidc/callback?code=1.AXoABdeHz9wj6EqoZkf7SST6emtl93uaa2lAjgIGKeWFELJ6APN6AA.AgABBAIAAABVrSpeuWamRam2jAF1XRQEAwDs_wUA9P-6GfVMSinOUmHc4mTGJCsErBw_4aHusrF4mc5vIV6SD6bMmnRAVLvT3OKW7e6zwGLILqvP2J1bH1Vqd2c-FrqUouXCarybq96l2DxATfnuQ3WCZZ-VZUrgVaQAQRd_k73inpBwMh0I9k0b0WPW-ljDAkfZ2RzD3GI9sKHzi_UfeZNNtOhKg3fGjnnuXEV1LuI8aWPWoasOLSw3SPKh1o-EEi9ekIB2YzwKJldfW1JnrdyfVIVMXrdELLTnKBnYbtstirc-vwLPp905f5Qo9JuD3bIMc-yPKzR3PQv4kH8bGswz9NxNd3aryLZyUDvKUA-BoLHM07jbBE60iRXn2dEZbdkaXFNsXuJAcNgf3cycrcmAhGqu7jMWLZ1H-g_8B7eoG6PbejibLTOnRR6x-SxB_77u-kkZCeNsuKSg5tw9Hr4-qRbwMEfa8u_XW3Orj32orYadRrCvCLF3_MHAirWcWZgMTYly_6JlJnUV7On0LJynDQjYf7Xm6wayPQayBAXwMpDxKr2FyocBWetpdJLkiUyviC-ZQr5hah28PaUebgIHNvYTGbrQvj7EBgiKfLux8PrDL7gqdREWVzHZ8bB84TfqmfZryede7qkMM2U02UMX7i9e6Z8xrgnCQYC913JJbtc9l82PsBlMhaLx84NmRxYIqaqkR3p0MaXefJ2z1r2Z7HQHz7ZDtu_fhdQBf-oHkd7Uqe9q-e3IODDU1M7mHOtNrxaQakTXiAnzz0QTf4N0AaczPE03nTnN_55XlHhUYza0Zu0duTLbzziP8myEjqJznWrDdakqvzTZEyeIrHZ9e2gGlYeteyO8NAU3qw&state=NzFjODE2ZmYtN2NkNC00YjE4LTliOWYtZWE4ZjcyNDI1MjZkL2tvcy53ZWJ1bnRpcy5jb20vQWhYX2llTTV1dGs9&session_state=005098e9-9c35-0302-5487-0d5ba30410b5
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Permissions-Policy: geolocation=(), microphone=(), fullscreen=(), camera=(), payment=(), usb=(), bluetooth=(), accelerometer=(), gyroscope=(), magnetometer=()
+Referrer-Policy: strict-origin-when-cross-origin
+

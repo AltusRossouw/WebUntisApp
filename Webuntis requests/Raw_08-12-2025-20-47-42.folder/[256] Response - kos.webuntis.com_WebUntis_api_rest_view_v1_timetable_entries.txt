@@ -1,0 +1,755 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Tue, 12 Aug 2025 18:45:14 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+requestId: 60ae8ff8ebf43526cb94ced659e8d951
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Pragma: no-cache
+Cache-Control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Permissions-Policy: geolocation=(), microphone=(), fullscreen=(), camera=(), payment=(), usb=(), bluetooth=(), accelerometer=(), gyroscope=(), magnetometer=()
+Referrer-Policy: strict-origin-when-cross-origin
+Referrer-Policy: strict-origin-when-cross-origin
+Permissions-Policy: geolocation=(), microphone=(), fullscreen=(), camera=(), payment=(), usb=(), bluetooth=(), accelerometer=(), gyroscope=(), magnetometer=()
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+
+{
+  "format": 3,
+  "days": [
+    {
+      "date": "2025-08-11",
+      "resourceType": "STUDENT",
+      "resource": {
+        "id": 114479,
+        "shortName": "EDUV4930169@vossie.net",
+        "longName": "Rossouw",
+        "displayName": ""
+      },
+      "status": "REGULAR",
+      "dayEntries": [],
+      "gridEntries": [
+        {
+          "ids": [
+            26552736,
+            26552739
+          ],
+          "duration": {
+            "start": "2025-08-11T10:00",
+            "end": "2025-08-11T11:50"
+          },
+          "type": "NORMAL_TEACHING_PERIOD",
+          "status": "REGULAR",
+          "statusDetail": null,
+          "name": null,
+          "layoutStartPosition": 0,
+          "layoutWidth": 1000,
+          "layoutGroup": 1,
+          "color": "bfc8cf",
+          "notesAll": "",
+          "icons": [],
+          "position1": [
+            {
+              "current": {
+                "type": "SUBJECT",
+                "status": "REGULAR",
+                "shortName": "TGV-ITAIA1-B33 (OL) ",
+                "longName": "X",
+                "displayName": "ITAIA1-B33 (O)",
+                "displayNameLabel": "ALTERNATENAME"
+              },
+              "removed": null
+            }
+          ],
+          "position2": [
+            {
+              "current": {
+                "type": "TEACHER",
+                "status": "REGULAR",
+                "shortName": "Ms. Ncube. S.",
+                "longName": "Ncube",
+                "displayName": "Ms Sizalobuhle Ncube",
+                "displayNameLabel": "TITLE_FORENAME_LONGNAME"
+              },
+              "removed": null
+            }
+          ],
+          "position3": [
+            {
+              "current": {
+                "type": "ROOM",
+                "status": "REGULAR",
+                "shortName": "ONLINE_2",
+                "longName": "Online",
+                "displayName": "Online",
+                "displayNameLabel": "LONGNAME"
+              },
+              "removed": null
+            }
+          ],
+          "position4": [
+            {
+              "current": {
+                "type": "INFO",
+                "status": "REGULAR",
+                "shortName": "TGV Group 2",
+                "longName": "TGV Group 2",
+                "displayName": "TGV Group 2",
+                "displayNameLabel": null
+              },
+              "removed": null
+            }
+          ],
+          "position5": null,
+          "position6": [],
+          "position7": [],
+          "texts": [],
+          "lessonText": "",
+          "lessonInfo": "TGV Group 2",
+          "substitutionText": "",
+          "userName": null,
+          "moved": null,
+          "durationTotal": null,
+          "link": null
+        }
+      ],
+      "backEntries": []
+    },
+    {
+      "date": "2025-08-12",
+      "resourceType": "STUDENT",
+      "resource": {
+        "id": 114479,
+        "shortName": "EDUV4930169@vossie.net",
+        "longName": "Rossouw",
+        "displayName": ""
+      },
+      "status": "REGULAR",
+      "dayEntries": [],
+      "gridEntries": [
+        {
+          "ids": [
+            26554608,
+            26554611
+          ],
+          "duration": {
+            "start": "2025-08-12T08:00",
+            "end": "2025-08-12T09:50"
+          },
+          "type": "NORMAL_TEACHING_PERIOD",
+          "status": "REGULAR",
+          "statusDetail": null,
+          "name": null,
+          "layoutStartPosition": 0,
+          "layoutWidth": 1000,
+          "layoutGroup": 1,
+          "color": "bfc8cf",
+          "notesAll": "",
+          "icons": [],
+          "position1": [
+            {
+              "current": {
+                "type": "SUBJECT",
+                "status": "REGULAR",
+                "shortName": "TGV-ITCTA1-B33 (OL) ",
+                "longName": "X",
+                "displayName": "ITCTA1-B33 (O)",
+                "displayNameLabel": "ALTERNATENAME"
+              },
+              "removed": null
+            }
+          ],
+          "position2": [
+            {
+              "current": {
+                "type": "TEACHER",
+                "status": "REGULAR",
+                "shortName": "Dr. Usman. A.",
+                "longName": "Usman",
+                "displayName": "Dr Ayinde Usman",
+                "displayNameLabel": "TITLE_FORENAME_LONGNAME"
+              },
+              "removed": null
+            }
+          ],
+          "position3": [
+            {
+              "current": {
+                "type": "ROOM",
+                "status": "REGULAR",
+                "shortName": "ONLINE",
+                "longName": "Online",
+                "displayName": "Online",
+                "displayNameLabel": "LONGNAME"
+              },
+              "removed": null
+            }
+          ],
+          "position4": [
+            {
+              "current": {
+                "type": "INFO",
+                "status": "REGULAR",
+                "shortName": "TGV Group 1",
+                "longName": "TGV Group 1",
+                "displayName": "TGV Group 1",
+                "displayNameLabel": null
+              },
+              "removed": null
+            }
+          ],
+          "position5": null,
+          "position6": [],
+          "position7": [],
+          "texts": [],
+          "lessonText": "",
+          "lessonInfo": "TGV Group 1",
+          "substitutionText": "",
+          "userName": null,
+          "moved": null,
+          "durationTotal": null,
+          "link": null
+        },
+        {
+          "ids": [
+            26555772,
+            26555775
+          ],
+          "duration": {
+            "start": "2025-08-12T10:00",
+            "end": "2025-08-12T11:50"
+          },
+          "type": "NORMAL_TEACHING_PERIOD",
+          "status": "REGULAR",
+          "statusDetail": null,
+          "name": null,
+          "layoutStartPosition": 0,
+          "layoutWidth": 1000,
+          "layoutGroup": 2,
+          "color": "bfc8cf",
+          "notesAll": "",
+          "icons": [],
+          "position1": [
+            {
+              "current": {
+                "type": "SUBJECT",
+                "status": "REGULAR",
+                "shortName": "TGV-ITISA1-B33 (OL) ",
+                "longName": "X",
+                "displayName": "ITISA1-B33 (O)",
+                "displayNameLabel": "ALTERNATENAME"
+              },
+              "removed": null
+            }
+          ],
+          "position2": [
+            {
+              "current": {
+                "type": "TEACHER",
+                "status": "REGULAR",
+                "shortName": "Mr. Nemukula. E.",
+                "longName": "Nemukula",
+                "displayName": "Mr Enos Nemukula",
+                "displayNameLabel": "TITLE_FORENAME_LONGNAME"
+              },
+              "removed": null
+            }
+          ],
+          "position3": [
+            {
+              "current": {
+                "type": "INFO",
+                "status": "REGULAR",
+                "shortName": "TGV Group 2",
+                "longName": "TGV Group 2",
+                "displayName": "TGV Group 2",
+                "displayNameLabel": null
+              },
+              "removed": null
+            }
+          ],
+          "position4": null,
+          "position5": null,
+          "position6": [],
+          "position7": [],
+          "texts": [],
+          "lessonText": "",
+          "lessonInfo": "TGV Group 2",
+          "substitutionText": "",
+          "userName": null,
+          "moved": null,
+          "durationTotal": null,
+          "link": null
+        },
+        {
+          "ids": [
+            26552742,
+            26552745
+          ],
+          "duration": {
+            "start": "2025-08-12T14:00",
+            "end": "2025-08-12T15:50"
+          },
+          "type": "NORMAL_TEACHING_PERIOD",
+          "status": "REGULAR",
+          "statusDetail": null,
+          "name": null,
+          "layoutStartPosition": 0,
+          "layoutWidth": 1000,
+          "layoutGroup": 3,
+          "color": "bfc8cf",
+          "notesAll": "",
+          "icons": [],
+          "position1": [
+            {
+              "current": {
+                "type": "SUBJECT",
+                "status": "REGULAR",
+                "shortName": "TGV-ITAIA1-B33 (OL) ",
+                "longName": "X",
+                "displayName": "ITAIA1-B33 (O)",
+                "displayNameLabel": "ALTERNATENAME"
+              },
+              "removed": null
+            }
+          ],
+          "position2": [
+            {
+              "current": {
+                "type": "TEACHER",
+                "status": "REGULAR",
+                "shortName": "Ms. Ncube. S.",
+                "longName": "Ncube",
+                "displayName": "Ms Sizalobuhle Ncube",
+                "displayNameLabel": "TITLE_FORENAME_LONGNAME"
+              },
+              "removed": null
+            }
+          ],
+          "position3": [
+            {
+              "current": {
+                "type": "ROOM",
+                "status": "REGULAR",
+                "shortName": "ONLINE_2",
+                "longName": "Online",
+                "displayName": "Online",
+                "displayNameLabel": "LONGNAME"
+              },
+              "removed": null
+            }
+          ],
+          "position4": [
+            {
+              "current": {
+                "type": "INFO",
+                "status": "REGULAR",
+                "shortName": "TGV Group 2",
+                "longName": "TGV Group 2",
+                "displayName": "TGV Group 2",
+                "displayNameLabel": null
+              },
+              "removed": null
+            }
+          ],
+          "position5": null,
+          "position6": [],
+          "position7": [],
+          "texts": [],
+          "lessonText": "",
+          "lessonInfo": "TGV Group 2",
+          "substitutionText": "",
+          "userName": null,
+          "moved": null,
+          "durationTotal": null,
+          "link": null
+        }
+      ],
+      "backEntries": []
+    },
+    {
+      "date": "2025-08-13",
+      "resourceType": "STUDENT",
+      "resource": {
+        "id": 114479,
+        "shortName": "EDUV4930169@vossie.net",
+        "longName": "Rossouw",
+        "displayName": ""
+      },
+      "status": "REGULAR",
+      "dayEntries": [],
+      "gridEntries": [
+        {
+          "ids": [
+            26555778
+          ],
+          "duration": {
+            "start": "2025-08-13T10:00",
+            "end": "2025-08-13T10:50"
+          },
+          "type": "NORMAL_TEACHING_PERIOD",
+          "status": "REGULAR",
+          "statusDetail": null,
+          "name": null,
+          "layoutStartPosition": 0,
+          "layoutWidth": 1000,
+          "layoutGroup": 1,
+          "color": "bfc8cf",
+          "notesAll": "",
+          "icons": [],
+          "position1": [
+            {
+              "current": {
+                "type": "SUBJECT",
+                "status": "REGULAR",
+                "shortName": "TGV-ITISA1-B33 (OL) ",
+                "longName": "X",
+                "displayName": "ITISA1-B33 (O)",
+                "displayNameLabel": "ALTERNATENAME"
+              },
+              "removed": null
+            }
+          ],
+          "position2": [
+            {
+              "current": {
+                "type": "TEACHER",
+                "status": "REGULAR",
+                "shortName": "Mr. Nemukula. E.",
+                "longName": "Nemukula",
+                "displayName": "Mr Enos Nemukula",
+                "displayNameLabel": "TITLE_FORENAME_LONGNAME"
+              },
+              "removed": null
+            }
+          ],
+          "position3": [
+            {
+              "current": {
+                "type": "ROOM",
+                "status": "REGULAR",
+                "shortName": "ONLINE",
+                "longName": "Online",
+                "displayName": "Online",
+                "displayNameLabel": "LONGNAME"
+              },
+              "removed": null
+            }
+          ],
+          "position4": [
+            {
+              "current": {
+                "type": "INFO",
+                "status": "REGULAR",
+                "shortName": "TGV Group 2",
+                "longName": "TGV Group 2",
+                "displayName": "TGV Group 2",
+                "displayNameLabel": null
+              },
+              "removed": null
+            }
+          ],
+          "position5": null,
+          "position6": [],
+          "position7": [],
+          "texts": [],
+          "lessonText": "",
+          "lessonInfo": "TGV Group 2",
+          "substitutionText": "",
+          "userName": null,
+          "moved": null,
+          "durationTotal": null,
+          "link": null
+        },
+        {
+          "ids": [
+            26555781
+          ],
+          "duration": {
+            "start": "2025-08-13T11:00",
+            "end": "2025-08-13T11:50"
+          },
+          "type": "NORMAL_TEACHING_PERIOD",
+          "status": "REGULAR",
+          "statusDetail": null,
+          "name": null,
+          "layoutStartPosition": 0,
+          "layoutWidth": 1000,
+          "layoutGroup": 2,
+          "color": "bfc8cf",
+          "notesAll": "",
+          "icons": [],
+          "position1": [
+            {
+              "current": {
+                "type": "SUBJECT",
+                "status": "REGULAR",
+                "shortName": "TGV-ITISA1-B33 (OL) ",
+                "longName": "X",
+                "displayName": "ITISA1-B33 (O)",
+                "displayNameLabel": "ALTERNATENAME"
+              },
+              "removed": null
+            }
+          ],
+          "position2": [
+            {
+              "current": {
+                "type": "TEACHER",
+                "status": "REGULAR",
+                "shortName": "Mr. Nemukula. E.",
+                "longName": "Nemukula",
+                "displayName": "Mr Enos Nemukula",
+                "displayNameLabel": "TITLE_FORENAME_LONGNAME"
+              },
+              "removed": null
+            }
+          ],
+          "position3": [
+            {
+              "current": {
+                "type": "INFO",
+                "status": "REGULAR",
+                "shortName": "TGV Group 2",
+                "longName": "TGV Group 2",
+                "displayName": "TGV Group 2",
+                "displayNameLabel": null
+              },
+              "removed": null
+            }
+          ],
+          "position4": null,
+          "position5": null,
+          "position6": [],
+          "position7": [],
+          "texts": [],
+          "lessonText": "",
+          "lessonInfo": "TGV Group 2",
+          "substitutionText": "",
+          "userName": null,
+          "moved": null,
+          "durationTotal": null,
+          "link": null
+        }
+      ],
+      "backEntries": []
+    },
+    {
+      "date": "2025-08-14",
+      "resourceType": "STUDENT",
+      "resource": {
+        "id": 114479,
+        "shortName": "EDUV4930169@vossie.net",
+        "longName": "Rossouw",
+        "displayName": ""
+      },
+      "status": "REGULAR",
+      "dayEntries": [],
+      "gridEntries": [
+        {
+          "ids": [
+            26554614,
+            26554617
+          ],
+          "duration": {
+            "start": "2025-08-14T08:00",
+            "end": "2025-08-14T09:50"
+          },
+          "type": "NORMAL_TEACHING_PERIOD",
+          "status": "REGULAR",
+          "statusDetail": null,
+          "name": null,
+          "layoutStartPosition": 0,
+          "layoutWidth": 1000,
+          "layoutGroup": 1,
+          "color": "bfc8cf",
+          "notesAll": "",
+          "icons": [],
+          "position1": [
+            {
+              "current": {
+                "type": "SUBJECT",
+                "status": "REGULAR",
+                "shortName": "TGV-ITCTA1-B33 (OL) ",
+                "longName": "X",
+                "displayName": "ITCTA1-B33 (O)",
+                "displayNameLabel": "ALTERNATENAME"
+              },
+              "removed": null
+            }
+          ],
+          "position2": [
+            {
+              "current": {
+                "type": "TEACHER",
+                "status": "REGULAR",
+                "shortName": "Dr. Usman. A.",
+                "longName": "Usman",
+                "displayName": "Dr Ayinde Usman",
+                "displayNameLabel": "TITLE_FORENAME_LONGNAME"
+              },
+              "removed": null
+            }
+          ],
+          "position3": [
+            {
+              "current": {
+                "type": "ROOM",
+                "status": "REGULAR",
+                "shortName": "ONLINE_3",
+                "longName": "Online",
+                "displayName": "Online",
+                "displayNameLabel": "LONGNAME"
+              },
+              "removed": null
+            }
+          ],
+          "position4": [
+            {
+              "current": {
+                "type": "INFO",
+                "status": "REGULAR",
+                "shortName": "TGV Group 1",
+                "longName": "TGV Group 1",
+                "displayName": "TGV Group 1",
+                "displayNameLabel": null
+              },
+              "removed": null
+            }
+          ],
+          "position5": null,
+          "position6": [],
+          "position7": [],
+          "texts": [],
+          "lessonText": "",
+          "lessonInfo": "TGV Group 1",
+          "substitutionText": "",
+          "userName": null,
+          "moved": null,
+          "durationTotal": null,
+          "link": null
+        }
+      ],
+      "backEntries": []
+    },
+    {
+      "date": "2025-08-15",
+      "resourceType": "STUDENT",
+      "resource": {
+        "id": 114479,
+        "shortName": "EDUV4930169@vossie.net",
+        "longName": "Rossouw",
+        "displayName": ""
+      },
+      "status": "REGULAR",
+      "dayEntries": [],
+      "gridEntries": [
+        {
+          "ids": [
+            26554662,
+            26554665
+          ],
+          "duration": {
+            "start": "2025-08-15T10:00",
+            "end": "2025-08-15T11:50"
+          },
+          "type": "NORMAL_TEACHING_PERIOD",
+          "status": "REGULAR",
+          "statusDetail": null,
+          "name": null,
+          "layoutStartPosition": 0,
+          "layoutWidth": 1000,
+          "layoutGroup": 1,
+          "color": "bfc8cf",
+          "notesAll": "",
+          "icons": [],
+          "position1": [
+            {
+              "current": {
+                "type": "SUBJECT",
+                "status": "REGULAR",
+                "shortName": "TGV-ITCTA1-B33 (OP) ",
+                "longName": "X",
+                "displayName": "ITCTA1-B33 (O)",
+                "displayNameLabel": "ALTERNATENAME"
+              },
+              "removed": null
+            }
+          ],
+          "position2": [
+            {
+              "current": {
+                "type": "TEACHER",
+                "status": "REGULAR",
+                "shortName": "Dr. Usman. A.",
+                "longName": "Usman",
+                "displayName": "Dr Ayinde Usman",
+                "displayNameLabel": "TITLE_FORENAME_LONGNAME"
+              },
+              "removed": null
+            }
+          ],
+          "position3": [
+            {
+              "current": {
+                "type": "ROOM",
+                "status": "REGULAR",
+                "shortName": "ONLINE_4",
+                "longName": "Online",
+                "displayName": "Online",
+                "displayNameLabel": "LONGNAME"
+              },
+              "removed": null
+            }
+          ],
+          "position4": [
+            {
+              "current": {
+                "type": "INFO",
+                "status": "REGULAR",
+                "shortName": "TGV Group 1",
+                "longName": "TGV Group 1",
+                "displayName": "TGV Group 1",
+                "displayNameLabel": null
+              },
+              "removed": null
+            }
+          ],
+          "position5": null,
+          "position6": [],
+          "position7": [],
+          "texts": [],
+          "lessonText": "",
+          "lessonInfo": "TGV Group 1",
+          "substitutionText": "",
+          "userName": null,
+          "moved": null,
+          "durationTotal": null,
+          "link": null
+        }
+      ],
+      "backEntries": []
+    },
+    {
+      "date": "2025-08-16",
+      "resourceType": "STUDENT",
+      "resource": {
+        "id": 114479,
+        "shortName": "EDUV4930169@vossie.net",
+        "longName": "Rossouw",
+        "displayName": ""
+      },
+      "status": "NO_DATA",
+      "dayEntries": [],
+      "gridEntries": [],
+      "backEntries": []
+    }
+  ],
+  "errors": []
+}

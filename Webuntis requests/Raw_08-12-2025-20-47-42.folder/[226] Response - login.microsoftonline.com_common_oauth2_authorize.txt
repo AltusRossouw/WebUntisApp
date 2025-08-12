@@ -1,0 +1,27 @@
+HTTP/1.1 302 Found
+Cache-Control: no-store, no-cache
+Pragma: no-cache
+Content-Type: text/html; charset=utf-8
+Content-Encoding: gzip
+Expires: -1
+Location: https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&redirect_uri=https%3a%2f%2foidc.webuntis.com%2fWebUntis%2foidc%2fcallback&state=NzFjODE2ZmYtN2NkNC00YjE4LTliOWYtZWE4ZjcyNDI1MjZkL2tvcy53ZWJ1bnRpcy5jb20vQWhYX2llTTV1dGs9&nonce=e9LMw5oPef6gnZ_eD6Nk3FEUYT8lS5FhA8NCh4wBzC0&client_id=7bf7656b-6b9a-4069-8e02-0629e58510b2&scope=openid+openid+profile+email&sso_reload=true&sso_nonce=AwABEgEAAAADAOz_BQD0_wT90XDYdseSlLnqmkXi8OnAE1TbnRH5sO9Y56mg0UJ9ezdcJ835YQtNwzzON2MmoM087uMfIPDOL8Vx9D818jUgAA&client-request-id=9a333282-688f-4366-8186-96ee2012dac4&mscrid=9a333282-688f-4366-8186-96ee2012dac4
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+P3P: CP="DSP CUR OTPi IND OTRi ONL FIN"
+x-ms-request-id: efc3f705-fc4b-480b-8b96-de455a3e3d00
+x-ms-ests-server: 2.1.21470.12 - NEULR1 ProdSlices
+report-to: {"group":"network-errors","max_age":86400,"endpoints":[{"url":"https://identity.nel.measure.office.net/api/report?catId=GW+estsfd+frc"}]}
+nel: {"report_to":"network-errors","max_age":86400,"success_fraction":0.001,"failure_fraction":1.0}
+x-ms-srs: 1.P
+Referrer-Policy: strict-origin-when-cross-origin
+Content-Security-Policy-Report-Only: object-src 'none'; base-uri 'self'; script-src 'self' 'nonce-Q190hbemtK3g9X5ER9rGYg' 'unsafe-inline' 'unsafe-eval' https://*.msauth.net https://*.msftauth.net https://*.msftauthimages.net https://*.msauthimages.net https://*.msidentity.com https://*.microsoftonline-p.com https://*.microsoftazuread-sso.com https://*.azureedge.net https://*.outlook.com https://*.office.com https://*.office365.com https://*.microsoft.com https://*.bing.com 'report-sample'; report-uri https://csp.microsoft.com/report/ESTS-UX-All
+X-XSS-Protection: 0
+Set-Cookie: fpc=Apj6x8lqTQpLpr4-AsMsYpb-O_cGAgAAACl-LeAOAAAA; expires=Thu, 11-Sep-2025 18:44:34 GMT; path=/; secure; HttpOnly; SameSite=None
+Set-Cookie: x-ms-gateway-slice=estsfd; path=/; secure; samesite=none; httponly
+Date: Tue, 12 Aug 2025 18:44:33 GMT
+Content-Length: 566
+
+<html><head><title>Object moved</title></head><body>
+<h2>Object moved to <a href="https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;redirect_uri=https%3a%2f%2foidc.webuntis.com%2fWebUntis%2foidc%2fcallback&amp;state=NzFjODE2ZmYtN2NkNC00YjE4LTliOWYtZWE4ZjcyNDI1MjZkL2tvcy53ZWJ1bnRpcy5jb20vQWhYX2llTTV1dGs9&amp;nonce=e9LMw5oPef6gnZ_eD6Nk3FEUYT8lS5FhA8NCh4wBzC0&amp;client_id=7bf7656b-6b9a-4069-8e02-0629e58510b2&amp;scope=openid+openid+profile+email&amp;sso_reload=true&amp;sso_nonce=AwABEgEAAAADAOz_BQD0_wT90XDYdseSlLnqmkXi8OnAE1TbnRH5sO9Y56mg0UJ9ezdcJ835YQtNwzzON2MmoM087uMfIPDOL8Vx9D818jUgAA&amp;client-request-id=9a333282-688f-4366-8186-96ee2012dac4&amp;mscrid=9a333282-688f-4366-8186-96ee2012dac4">here</a>.</h2>
+</body></html>

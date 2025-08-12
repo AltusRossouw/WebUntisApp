@@ -1,0 +1,151 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Tue, 12 Aug 2025 18:44:38 GMT
+Content-Type: application/json;charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+requestId: df43a08a47e0bd741c4c2f42e6132d91
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Pragma: no-cache
+Cache-Control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Permissions-Policy: geolocation=(), microphone=(), fullscreen=(), camera=(), payment=(), usb=(), bluetooth=(), accelerometer=(), gyroscope=(), magnetometer=()
+Referrer-Policy: strict-origin-when-cross-origin
+Referrer-Policy: strict-origin-when-cross-origin
+Permissions-Policy: geolocation=(), microphone=(), fullscreen=(), camera=(), payment=(), usb=(), bluetooth=(), accelerometer=(), gyroscope=(), magnetometer=()
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+
+{
+  "currentSchoolYear": {
+    "dateRange": {
+      "start": "2025-01-01",
+      "end": "2025-12-31"
+    },
+    "id": 19,
+    "name": "2025/2026",
+    "timeGrid": {
+      "schoolyearId": 19,
+      "units": [
+        {
+          "endTime": 850,
+          "startTime": 800,
+          "unitOfDay": 1
+        },
+        {
+          "endTime": 950,
+          "startTime": 900,
+          "unitOfDay": 2
+        },
+        {
+          "endTime": 1050,
+          "startTime": 1000,
+          "unitOfDay": 3
+        },
+        {
+          "endTime": 1150,
+          "startTime": 1100,
+          "unitOfDay": 4
+        },
+        {
+          "endTime": 1250,
+          "startTime": 1200,
+          "unitOfDay": 5
+        },
+        {
+          "endTime": 1350,
+          "startTime": 1300,
+          "unitOfDay": 6
+        },
+        {
+          "endTime": 1450,
+          "startTime": 1400,
+          "unitOfDay": 7
+        },
+        {
+          "endTime": 1550,
+          "startTime": 1500,
+          "unitOfDay": 8
+        },
+        {
+          "endTime": 1650,
+          "startTime": 1600,
+          "unitOfDay": 9
+        },
+        {
+          "endTime": 1750,
+          "startTime": 1700,
+          "unitOfDay": 10
+        },
+        {
+          "endTime": 1850,
+          "startTime": 1800,
+          "unitOfDay": 11
+        },
+        {
+          "endTime": 1950,
+          "startTime": 1900,
+          "unitOfDay": 12
+        },
+        {
+          "endTime": 2050,
+          "startTime": 2000,
+          "unitOfDay": 13
+        }
+      ]
+    }
+  },
+  "departments": [],
+  "isPlayground": false,
+  "oneDriveData": {
+    "hasOneDriveRight": false,
+    "oneDriveClientId": "d4acf9ca-5400-48f0-96db-e356769fa9fb"
+  },
+  "tenant": {
+    "displayName": "Eduvos Campus",
+    "id": "9138900",
+    "wuHostName": null
+  },
+  "ui2020": true,
+  "user": {
+    "id": 128984,
+    "locale": "en",
+    "name": "EDUV4930169@vossie.net",
+    "email": "eduv4930169@vossie.net",
+    "permissions": {
+      "views": [
+        "TODAY",
+        "TIMETABLE_NEW_STUDENTS_MY",
+        "PROFILE",
+        "PERMISSION_STUDENT_TT_OWN"
+      ]
+    },
+    "person": {
+      "displayName": "Rossouw Altus",
+      "id": 114479,
+      "imageUrl": null
+    },
+    "roles": [
+      "STUDENT"
+    ],
+    "students": [],
+    "lastLogin": "1970-01-01T01:00:00"
+  },
+  "permissions": [
+    "TT_VIEW:R:5:ASSIGNED"
+  ],
+  "settings": [
+    "system.linesperpage:2000",
+    "system.firstDayOfWeek:2",
+    "system.showlessonsofday:false",
+    "system.emailadmin:ayo.akindolani@eduvos.com"
+  ],
+  "pollingJobs": [],
+  "isSupportAccessOpen": true,
+  "licenceExpiresAt": "2025-10-31",
+  "holidays": []
+}

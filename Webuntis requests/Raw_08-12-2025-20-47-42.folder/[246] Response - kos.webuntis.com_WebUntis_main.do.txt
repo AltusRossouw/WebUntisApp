@@ -1,0 +1,108 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Tue, 12 Aug 2025 18:44:41 GMT
+Content-Type: text/html;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+requestId: d8ca39ed30f8cab422680e8867f40d78
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Pragma: no-cache
+Cache-Control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Content-Language: en
+Permissions-Policy: geolocation=(), microphone=(), fullscreen=(), camera=(), payment=(), usb=(), bluetooth=(), accelerometer=(), gyroscope=(), magnetometer=()
+Referrer-Policy: strict-origin-when-cross-origin
+Referrer-Policy: strict-origin-when-cross-origin
+Permissions-Policy: geolocation=(), microphone=(), fullscreen=(), camera=(), payment=(), usb=(), bluetooth=(), accelerometer=(), gyroscope=(), magnetometer=()
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+Content-Encoding: gzip
+
+
+
+
+
+
+
+
+
+
+<div>
+    <div data-dojo-type="dijit/layout/ContentPane" data-dojo-attach-point="_titleContainer" id="titleContainer"
+         data-dojo-props="region: 'top'">
+        <h1>
+            Today
+            <span class="dimmed">Aug 12, 2025</span>
+        </h1>
+    </div>
+
+    <div class="anonymous">
+
+        
+        <form id="llco" data-dojo-type="grupet/widget/lesson/LessonDayList" data-dojo-props="id: &#39;mainForm&#39;, studentsPerPeriod: {}" data-dojo-id="mainForm" action="/WebUntis/main.do?&amp;request.preventCache=1755024280410" method="post">
+
+            
+
+            
+            
+                <section class="card maxwidth">
+                    <table style="width: 100%;">
+                        <tr>
+                            <td>
+                                
+
+                                
+                                    <p class="message">Last login: ---</p>
+                                
+
+                                
+                                    <p class="message">Last update of the timetable from Untis: Tuesday, Aug 12, 2025 4:48:10 PM</p>
+                                
+
+                                
+
+                                
+
+                                
+
+                                
+
+                                
+                            </td>
+                            
+                        </tr>
+                    </table>
+
+                    
+                </section>
+
+                
+            
+
+            <div id="messageOfDayList" data-dojo-type="grupet/widget/app/MessageOfDayList" data-dojo-props="&#034;today&#034;:20250812,&#034;messagesOfDay&#034;:[{&#034;subject&#034;:&#034;scheduled maintenance for web untis&#034;,&#034;body&#034;:&#034;&lt;div class=\&#034;title\&#034; style=\&#034;color: rgb(26, 31, 54); font-family: \&#034;Inter var\&#034;, sans-serif; background-color: rgb(255, 255, 255); font-size: 23px !important; line-height: 1.2 !important; height: auto !important; min-height: 25px !important;\&#034;&gt;&lt;div class=\&#034;title\&#034; style=\&#034;font-weight: 600 !important; line-height: 1.2 !important; height: auto !important; min-height: 25px !important;\&#034;&gt;&lt;span style=\&#034;color: rgb(66, 84, 102); font-size: 16px;\&#034;&gt;Dear WebUntis customers,&lt;/span&gt;&lt;/div&gt;&lt;div class=\&#034;content\&#034; style=\&#034;font-size: medium; line-height: 1.5; --max-height: 350px;\&#034;&gt;&lt;div class=\&#034;content-inner\&#034; style=\&#034;\&#034;&gt;&lt;div class=\&#034;description markdown\&#034; style=\&#034;line-height: 1.8; margin-top: 15px; color: rgb(66, 84, 102);\&#034;&gt;&lt;p style=\&#034;margin-top: 0px; margin-bottom: 0px;\&#034;&gt;&lt;b style=\&#034;\&#034;&gt;&lt;br /&gt;&lt;span style=\&#034;color: rgb(26, 31, 54);\&#034;&gt;Scheduled maintenance for WebUntis&lt;span style=\&#034;font-weight: 400;\&#034;&gt; servers: &lt;/span&gt;&lt;/span&gt;&lt;/b&gt;on&lt;b&gt; 22.08.2025 from 18:00 - 24:00 &lt;/b&gt;and on&lt;b&gt; 23.08.2025 from 13:00 - 19:00&lt;/b&gt; maintenance work for the WebUntis servers&nbsp;will be carried out. &lt;b&gt;The WebUntis Service will therefore be unavailable for these servers during this time.&lt;/b&gt;&nbsp;&lt;br /&gt;&lt;br /&gt;We apologize for any inconvenience.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&#034;,&#034;expanded&#034;:true,&#034;attachments&#034;:[]}],&#034;editable&#034;:false,&#034;rssUrl&#034;:&#034;https://kos.webuntis.com/WebUntis/NewsFeed.do?school=eduvos-campus&#034;">
+</div>
+
+
+            
+
+            
+
+            
+                
+                    
+                        
+                    
+                    
+                
+            
+
+            
+        <div>
+<input type="hidden" name="_csrf" value="peUByEvPlFEphLiMcKEgBfPWfnTC-AoCde3sX69HUBwrk2prldQ1-H3-9zQEsIy8EowUZMrhU02jmzwvRIjVZ58kZSQS8FkN" />
+</div></form>
+    </div>
+</div>

@@ -1,0 +1,23 @@
+HTTP/1.1 302 Found
+Server: nginx
+Date: Tue, 12 Aug 2025 18:44:33 GMT
+Content-Length: 0
+Connection: keep-alive
+requestId: d857c91844d095489cbe062d810aef3f
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Location: https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&redirect_uri=https%3A%2F%2Foidc.webuntis.com%2FWebUntis%2Foidc%2Fcallback&state=NzFjODE2ZmYtN2NkNC00YjE4LTliOWYtZWE4ZjcyNDI1MjZkL2tvcy53ZWJ1bnRpcy5jb20vQWhYX2llTTV1dGs9&nonce=e9LMw5oPef6gnZ_eD6Nk3FEUYT8lS5FhA8NCh4wBzC0&client_id=7bf7656b-6b9a-4069-8e02-0629e58510b2&scope=openid+openid+profile+email
+Permissions-Policy: geolocation=(), microphone=(), fullscreen=(), camera=(), payment=(), usb=(), bluetooth=(), accelerometer=(), gyroscope=(), magnetometer=()
+Referrer-Policy: strict-origin-when-cross-origin
+Referrer-Policy: strict-origin-when-cross-origin
+Permissions-Policy: geolocation=(), microphone=(), fullscreen=(), camera=(), payment=(), usb=(), bluetooth=(), accelerometer=(), gyroscope=(), magnetometer=()
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+
